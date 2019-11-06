@@ -144,3 +144,9 @@ body {
     flex-flow: row wrap;
     justify-content: center;
   }
+
+.card-img-top:hover {
+    opacity: 0.3;
+}
+
+  
