@@ -7,23 +7,24 @@ import {Nav, Navbar } from 'react-bootstrap';
 
 
 const Header = () => (
-        <Navbar bg="light" variant="light">
+
+        <Navbar bg="light" variant="light" fixed="top">
        
             <Navbar.Brand id="logo-link" href="/">
                 <img className="topnav-logo" src={ logo } alt="BioTork logo" />
             </Navbar.Brand> 
-            <Nav className = 'mr-auto'>
-            {/* Page Links */}
+            <Nav>
 
+            {/* Page Links */}
+               
                 <Nav.Link href='/about'>About Us</Nav.Link>
                 <Nav.Link href='/technology'>Technology</Nav.Link>
                 <Nav.Link href='/projects'>Projects</Nav.Link>
                 <Nav.Link href='/media'>Media</Nav.Link>
-                <Nav.Link href='/contact'>Contact Us</Nav.Link>
-
-
-            </Nav>
+                <Nav.Link href='/contact'>Contact Us</Nav.Link> 
+                </Nav>
         </Navbar>
+
         
     )
 
