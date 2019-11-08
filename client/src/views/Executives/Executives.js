@@ -6,10 +6,26 @@ function Home() {
     return (
     <>
 
+        <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
+        </head>
+
+        <div class="container">
+            <div class="row">
+            <div class="hero-section">
+            <div class="hero-section-text">
+            <div class="heading-title text-center">
+                    <h1> Our professionals </h1>
+                </div>
+            </div>
+            </div>
+            </div>
+        </div>
+
+
         <div class="container">
             <div class="row">
                 <div class="heading-title text-center">
-                    <h3> Our professionals </h3>
                     <p class="center-txt">Lorem ipsum dolor 
                     sit amet, consectetur adipiscing elit, 
                     sed do eiusmod tempor incididunt ut labore 
@@ -57,6 +73,30 @@ function Home() {
                 </div>
                 </div>
             </div>
+            </div>
+        </div>
+
+        <div class="cotainer">
+            <div class="row">
+                <div class="flex-container">
+                <div class="column">
+                    <div class="card">
+                        <p>This is a test 1</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <p>This is a test 2</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <div class="card-fa">
+                            <i class="fa fa-handshake-o" style={{color : 'green', fontSize : '32px'}}></i>
+                        </div>
+                    </div>
+                </div>
+                </div>
             </div>
         </div>
          

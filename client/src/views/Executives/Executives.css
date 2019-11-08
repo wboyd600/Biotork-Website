@@ -46,6 +46,13 @@ body {
     text-transform: uppercase;
 }
 
+.heading-title h1 {
+  margin-bottom: 0;
+  letter-spacing: 3px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
 .center-txt {
     padding-top: 25px;
     width: 60%;
@@ -143,10 +150,71 @@ body {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+
   }
 
 .card-img-top:hover {
     opacity: 0.3;
 }
 
+.social-connect {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .social-connect {
+  opacity: 1;
+}
+
+.hero-section {
+  background: url('https://alzheimersnewstoday.com/wp-content/uploads/2016/03/shutterstock_114563296-1400x480@2x.jpg') 50% no-repeat;
+  background-size: cover;
+  height: 60vh;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  
+}
+
+.hero-section-text {
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+
+.centered-font-awesome {
+   
+    color:white;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.card-fa {
+  width: 100%;
+  min-height: 132px;
+  text-align:center;
+}
+.card-fa .fa {
+  display:inline-block;
+  vertical-align:middle;
+
+  font-size: 3.3em;
+  background-color: #fff;
+  border: 5px solid #E6E6FA;
+  border-radius: 38px;
+  height: 52px;
+  line-height: 44px;
+  width: 52px;
+  margin:20px 5px;
+}
   
