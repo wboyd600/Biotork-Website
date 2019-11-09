@@ -210,11 +210,20 @@ body {
 
   font-size: 3.3em;
   background-color: #fff;
-  border: 5px solid #E6E6FA;
+  border: 5px solid #90EE90;
   border-radius: 38px;
   height: 52px;
   line-height: 44px;
   width: 52px;
   margin:20px 5px;
+}
+
+.center-txt-alt {
+  padding-top: 0px;
+  width: 60%;
+  margin: 0 auto;
+  display: inline-block;
+  line-height: 25px;
+  color: #7e7e7e;
 }
   

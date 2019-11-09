@@ -81,18 +81,49 @@ function Home() {
                 <div class="flex-container">
                 <div class="column">
                     <div class="card">
-                        <p>This is a test 1</p>
-                    </div>
-                </div>
-                <div class="column">
-                    <div class="card">
-                        <p>This is a test 2</p>
-                    </div>
-                </div>
-                <div class="column">
-                    <div class="card">
                         <div class="card-fa">
                             <i class="fa fa-handshake-o" style={{color : 'green', fontSize : '32px'}}></i>
+                            <div class="row">
+                                <p class="center-txt-alt">Partners you can trust</p>
+                            </div>
+                            <div class="row">
+                                <p class="center-txt-alt">Lorem ipsum dolor 
+                                sit amet, consectetur adipiscing elit, 
+                                sed do eiusmod tempor incididunt ut labore 
+                                et dolore magna aliqua.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                            <div class="card-fa">
+                                <i class="fa fa-user-circle-o" style={{color : 'green', fontSize : '32px'}}></i>
+                                <div class="row">
+                                    <p class="center-txt-alt">Putting clients first</p>
+                                </div>
+                                <div class="row">
+                                    <p class="center-txt-alt">Lorem ipsum dolor 
+                                    sit amet, consectetur adipiscing elit, 
+                                    sed do eiusmod tempor incididunt ut labore 
+                                    et dolore magna aliqua.</p>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                <div class="column">
+                <div class="card">
+                        <div class="card-fa">
+                            <i class="fa fa-history" style={{color : 'green', fontSize : '32px'}}></i>
+                            <div class="row">
+                                <p class="center-txt-alt">A history of success</p>
+                            </div>
+                            <div class="row">
+                                <p class="center-txt-alt">Lorem ipsum dolor 
+                                sit amet, consectetur adipiscing elit, 
+                                sed do eiusmod tempor incididunt ut labore 
+                                et dolore magna aliqua.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
