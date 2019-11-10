@@ -25,8 +25,23 @@ const Footer = () => {
                         <a href="#"><i class="fa fa-youtube"></i></a>
                     </div>
                 </div>
-                <div class="footer-section links"></div>
-                <div class="footer-section contact-form"></div>
+                <div class="footer-section links">
+                    <h2>Quick Links</h2>
+                    <ul>
+                        <a href="#"><li>Home</li></a>
+                        <a href="#"><li>About Us</li></a>
+                        <a href="#"><li>Technology</li></a>
+                        <a href="#"><li>Company Timeline</li></a>
+                        <a href="#"><li>Press Releases</li></a>
+                    </ul>
+                </div>
+                <div class="footer-section contact-form">
+                    <h2>Stay Connected</h2>
+                    <form action="index.html" method="post">
+                        <input type="email" name="email" class="text-input contact-input" placeholder="Email Address..."></input>
+                    </form>
+                    <button type="submit" class="btn btn-big"><i class="fa fa-envelope"></i> Sign Up</button>
+                </div>
             </div>
             <div class="footer-bottom">
                 &copy; BioTork 2019 | Designed By Group 5B
