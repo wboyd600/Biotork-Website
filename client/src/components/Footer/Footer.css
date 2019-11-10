@@ -18,7 +18,6 @@
 }
 
 .footer .footer-content {
-    border: 1px solid red;
     height: 350px;
     display: flex;
 }
@@ -26,5 +25,56 @@
 .footer .footer-content .footer-section {
     flex: 1;
     padding: 25px;
+}
+
+.footer .footer-content h1, 
+.footer .footer-content h2 {
+    color: white;
+}
+
+.footer .footer-content .about .contact span {
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 8px;
+}
+
+.footer .footer-content .about .socials a {
+    border: 1px solid grey;
+    width: 45px;
+    height: 41px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    margin-right: 5px;
+    text-align: inline-block;
+    font-size: 1.3em;
+    border-radius: 5px;
+    color: grey;
+
+}
+
+.footer .footer-content .about .socials a:hover {
     border: 1px solid white;
+    color: white;
+    transition: all .3s;
+}
+
+.footer .footer-content .links ul a {
+    text-decoration: none;
+    color: grey;
+    display: block;
+    margin: 10px;
+    font-size: 1.2em;
+    transition: all .3;
+
+}
+
+.footer .footer-content .links ul a:hover {
+    text-decoration: none;
+    color: white;
+    margin-left: 15px;
+    transition: all .3s;
+    
 }

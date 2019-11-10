@@ -15,7 +15,7 @@ const Footer = () => {
                         of our planet for generations to come.
                     </p>
                     <div class="contact">
-                        <span><i class="fa fa-phone"></i> &nbsp;123-456-789</span><br></br>
+                        <span><i class="fa fa-phone"></i> &nbsp;123-456-789</span>
                         <span><i class="fa fa-envelope"></i> &nbsp;test@BioTork.com</span>
                     </div>
                     <div class="socials">
