@@ -23,13 +23,20 @@ function Technology() {
                 <h2 class="heading-title text-center">
                     Leaders in Stuff
                 </h2>
+
                 <h1 class="heading-title text-center">
                 Lorem ipsum dolor 
                     sit amet, consectetur adipiscing elit
                 </h1>
+
                 <div class="heading-detail text-center">
                     <p class="center-txt ">BioTork is the world leader in the use of evolutionary optimization to develop robust cellular factories capable of converting low value carbon sources such as biomass and agro-industrial by-products into high-value bio-based chemical commodities. Instead of adapting the production process to the metabolic limitations of the microorganisms, we adapt the microorganisms to perform optimally in the simplest and most economical production process.</p>
                 </div>
+
+                <div class = "heading-detail text-center">
+                    <p class = "center-txt"> Click on a topic to learn more. </p>
+                </div>
+
             </div>
         </div>
 
