@@ -3,6 +3,7 @@ import { Route, Switch, Redirect  } from 'react-router-dom';
 import Home from "./views/Home/Home"
 import NotFound from "./views/NotFound"
 import Header from "./components/Header/Header"
+import Footer from "./components/Footer/Footer"
 
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
         </Route>
         <Route component={NotFound}/>
       </Switch>
+      <Footer />
     </div>
   );
 }
