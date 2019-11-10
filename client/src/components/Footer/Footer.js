@@ -3,9 +3,11 @@ import './Footer.css';
 const Footer = () => {
     return (
         <div class="footer">
-            <p>Posted by: Hege Refsnes</p>
-            <p>Contact information: <a href="mailto:someone@example.com">
-            someone@example.com</a>.</p>
+            <div class="footer-content"></div>
+            <div class="footer-bottom">
+                &copy; BioTork 2019 | Designed By Group 5B
+            </div>
+
         </div>
     );
 }
