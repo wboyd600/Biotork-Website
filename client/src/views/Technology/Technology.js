@@ -47,30 +47,31 @@ function Technology() {
                 </div>
                 </div>
             </div>
-
             <div class="column">
                 <div class="card">
-                <img class="card-img-top" src="https://image.freepik.com/free-photo/confident-entrepreneur-satisfied-with-own-success_1163-5474.jpg" alt="Mike"></img>
-                <div class="container">
-                    <h2>Mark Dobbins</h2>
-                    <p class="title">Lead Scientist</p>
+                <div class="hero-section" style={{  background: "url(" + "https://media.licdn.com/dms/image/C561BAQG1SIL0uFUQ1A/company-background_10000/0?e=2159024400&v=beta&t=vD9AZT70vkE9pMDv7NQJ7LVl3o2qaly8CbGRS726_T4" + ")"}}>
+                <div class="container" >
+                    <h2>James Bond</h2>
+                    <p class="title">CEO &amp; Founder</p>
                     <p>lorem ipsum ipsum lorem.</p>
-                    <p>science@test.com</p>
+                    <p>CEO@test.com</p>
+                    </div>
                 </div>
                 </div>
             </div>
-
             <div class="column">
                 <div class="card">
-                <img class="card-img-top" src="https://image.freepik.com/free-photo/happy-african-american-professional-manager-smiling-looking-camera-headshot-portrait_1163-5134.jpg" alt="John"></img>
-                <div class="container">
-                    <h2>John Doe</h2>
-                    <p class="title">Senior Engineer</p>
+                <div class="hero-section" style={{  background: "url(" + "https://media.licdn.com/dms/image/C561BAQG1SIL0uFUQ1A/company-background_10000/0?e=2159024400&v=beta&t=vD9AZT70vkE9pMDv7NQJ7LVl3o2qaly8CbGRS726_T4" + ")"}}>
+                <div class="container" >
+                    <h2>James Bond</h2>
+                    <p class="title">CEO &amp; Founder</p>
                     <p>lorem ipsum ipsum lorem.</p>
-                    <p>engineer@test.com</p>
+                    <p>CEO@test.com</p>
+                    </div>
                 </div>
                 </div>
             </div>
+            
             </div>
         </div>   
     </>
