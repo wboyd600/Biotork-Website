@@ -1,31 +1,32 @@
 import React from 'react';
 import './Technology.css';
+import { Link } from 'react-router-dom';
 function Technology() {
     return (
         <>
         <head>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
         </head>
         <div class="container">
             <div class="row">
-            <div class="hero-section" style={{  background: "url(" + "https://alzheimersnewstoday.com/wp-content/uploads/2016/03/shutterstock_114563296-1400x480@2x.jpg" + ")"}}>
-            <div class="hero-section-text"> 
-            <div class="heading-title text-center">
-                    <h1> Our Technologies </h1>
+                <div class="hero-section" style={{  background: "url(" + "https://alzheimersnewstoday.com/wp-content/uploads/2016/03/shutterstock_114563296-1400x480@2x.jpg" + ")"}}>
+                    <div class="hero-section-text"> 
+                        <div class="heading-title text-center">
+                            <h1> Our Technologies </h1>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            </div>
             </div>
         </div>
 
         <div class="container">
             <div class="row">
                 <h2 class="heading-title text-center">
-                    Leaders in Stuff
+                    <Link className="FAQ-Link" to='/FAQ'>Frequently Asked Questions</Link>    
                 </h2>
 
                 <h1 class="heading-title text-center">
-                Lorem ipsum dolor 
+                    Lorem ipsum dolor 
                     sit amet, consectetur adipiscing elit
                 </h1>
 
@@ -36,7 +37,6 @@ function Technology() {
                 <div class = "heading-detail text-center">
                     <p class = "center-txt"> Click on a topic to learn more. </p>
                 </div>
-
             </div>
         </div>
 
@@ -63,7 +63,6 @@ function Technology() {
                     </div>
                 </div>
 
-
                 <div class="column">
                     <div class="card">
                         <div class="hero-section" style={{  background: "url(" + "https://dr282zn36sxxg.cloudfront.net/datastreams/f-d%3Adfddd2a117538bc697836b2359cdd805860b7cdd5a9f194afdad6ec8%2BIMAGE_TINY%2BIMAGE_TINY.1" + ")"}}>
@@ -83,7 +82,6 @@ function Technology() {
                         </div>
                     </div>
                 </div>
-
 
                 <div class="column">
                     <div class="card">
@@ -105,7 +103,6 @@ function Technology() {
                     </div>
                 </div>
 
-
                 <div class="column">
                     <div class="card">
                         <div class="hero-section" style={{  background: "url(" + "https://www.wur.nl/upload_mm/2/a/3/47584885-db94-4d8f-af9c-3e401b41260e_2173890_blauwe%20cellen_B_2add4f09_530x397.jpg" + ")"}}>
@@ -125,7 +122,6 @@ function Technology() {
                         </div>
                     </div>
                 </div>                      
-
             </div>
         </div>        
     </>
