@@ -5,7 +5,7 @@ import Executives from "./views/Executives/Executives"
 import NotFound from "./views/NotFound"
 import Header from "./components/Header/Header"
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import Footer from "./components/Footer/Footer"
 
 const App = () => {
   return (
@@ -19,6 +19,7 @@ const App = () => {
         </Route>
         <Route component={NotFound}/>
       </Switch>
+      <Footer />
     </div>
   );
 }
