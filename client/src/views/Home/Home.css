@@ -4,6 +4,10 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    text-align:center;
+    background-attachment: fixed;
+    background-color: black;
+    background-blend-mode: screen;
     }
 .App {
     text-align: center;
@@ -16,8 +20,13 @@
     transform: translate(-50%, -50%);
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    color:#303030;
-    font-size: 40px;
+    color: black;
+    font-size: 4.5vw;
+    //background-color: rgba(0, 0, 0,.3)
+}
+
+.text2{
+    font-size: 2.25vw;
 }
 
 .App-logo {

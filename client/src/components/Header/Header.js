@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Header.css';
-import logo from '../../assets/biotork-logo.png';
+import logo from '../../assets/BioTork_High_Definition_Logo.png';
 import {Nav, Navbar } from 'react-bootstrap';
 
 

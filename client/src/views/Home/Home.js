@@ -6,9 +6,8 @@ import background from '../../assets/wheat.jpg';
 function Home() {
     return (
         <div className="bg">
-        <div className="text">
-            <p>Welcome to BioTork</p>
-            <p>Evolving beyond the imagination</p>
+            <p className = "text">Welcome to BioTork <br/>
+            <div className = "text2">Evolving beyond the imagination</div></p>
             {/*
             <header className="App-header">
 
@@ -25,7 +24,6 @@ function Home() {
                 </a>
             </header>
             */}
-                    </div>
     </div>
     );
 }
