@@ -85,11 +85,11 @@ body {
     text-transform: uppercase;
 }
 
-/* Three columns side by side */
+/* Four columns side by side */
 .column {
-    width: 31%;
-    margin-bottom: 16px;
-    margin-top: 32px;
+    width: 20%;
+    margin-bottom: 0px;
+    margin-top: 0px; 
     padding: 0 8px;
     
   }
@@ -107,7 +107,7 @@ body {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     margin: 0 auto; /* Added */
     float: none; /* Added */
-    margin-bottom: 10px; /* Added */
+    margin-bottom: 0px; /* Added */
     border: none;
     outline: 0;
     display: inline-block;

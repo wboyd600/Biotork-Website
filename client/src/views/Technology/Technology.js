@@ -41,46 +41,117 @@ function Technology() {
         </div>
 
         <div class="row">
-            <div class="flex-container">
-            <div class="column">
-                <div class="card">
-                <div class="hero-section" style={{  background: "url(" + "https://media.licdn.com/dms/image/C561BAQG1SIL0uFUQ1A/company-background_10000/0?e=2159024400&v=beta&t=vD9AZT70vkE9pMDv7NQJ7LVl3o2qaly8CbGRS726_T4" + ")"}}>
-                <div class="container" >
-                    <h2>James Bond</h2>
-                    <p class="title">CEO &amp; Founder</p>
-                    <p>lorem ipsum ipsum lorem.</p>
-                    <p>CEO@test.com</p>
+             <div class="flex-container">
+
+                <div class="column">
+                    <div class="card">
+                        <div class="hero-section" style={{  background: "url(" + "https://media.licdn.com/dms/image/C561BAQG1SIL0uFUQ1A/company-background_10000/0?e=2159024400&v=beta&t=vD9AZT70vkE9pMDv7NQJ7LVl3o2qaly8CbGRS726_T4" + ")"}}>
+                            <div class="container" >
+                                <h2>James Bond</h2>
+                                <p class="title">CEO &amp; Founder</p>
+                                <p>lorem ipsum ipsum lorem.</p>
+                                <p>CEO@test.com</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                </div>
-            </div>
-            <div class="column">
-                <div class="card">
-                <div class="hero-section" style={{  background: "url(" + "https://media.licdn.com/dms/image/C561BAQG1SIL0uFUQ1A/company-background_10000/0?e=2159024400&v=beta&t=vD9AZT70vkE9pMDv7NQJ7LVl3o2qaly8CbGRS726_T4" + ")"}}>
-                <div class="container" >
-                    <h2>James Bond</h2>
-                    <p class="title">CEO &amp; Founder</p>
-                    <p>lorem ipsum ipsum lorem.</p>
-                    <p>CEO@test.com</p>
+
+                <div class="column">
+                    <div class="card">
+                        <div class="hero-section" style={{  background: "url(" + "https://media.licdn.com/dms/image/C561BAQG1SIL0uFUQ1A/company-background_10000/0?e=2159024400&v=beta&t=vD9AZT70vkE9pMDv7NQJ7LVl3o2qaly8CbGRS726_T4" + ")"}}>
+                            <div class="container" >
+                                <h2>James Bond</h2>
+                                <p class="title">CEO &amp; Founder</p>
+                                <p>lorem ipsum ipsum lorem.</p>
+                                <p>CEO@test.com</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                </div>
-            </div>
-            <div class="column">
-                <div class="card">
-                <div class="hero-section" style={{  background: "url(" + "https://media.licdn.com/dms/image/C561BAQG1SIL0uFUQ1A/company-background_10000/0?e=2159024400&v=beta&t=vD9AZT70vkE9pMDv7NQJ7LVl3o2qaly8CbGRS726_T4" + ")"}}>
-                <div class="container" >
-                    <h2>James Bond</h2>
-                    <p class="title">CEO &amp; Founder</p>
-                    <p>lorem ipsum ipsum lorem.</p>
-                    <p>CEO@test.com</p>
+
+
+                <div class="column">
+                    <div class="card">
+                        <div class="hero-section" style={{  background: "url(" + "https://media.licdn.com/dms/image/C561BAQG1SIL0uFUQ1A/company-background_10000/0?e=2159024400&v=beta&t=vD9AZT70vkE9pMDv7NQJ7LVl3o2qaly8CbGRS726_T4" + ")"}}>
+                            <div class="container" >
+                                <h2>James Bond</h2>
+                                <p class="title">CEO &amp; Founder</p>
+                                <p>lorem ipsum ipsum lorem.</p>
+                                <p>CEO@test.com</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
+
+                <div class="column">
+                    <div class="card">
+                        <div class="hero-section" style={{  background: "url(" + "https://media.licdn.com/dms/image/C561BAQG1SIL0uFUQ1A/company-background_10000/0?e=2159024400&v=beta&t=vD9AZT70vkE9pMDv7NQJ7LVl3o2qaly8CbGRS726_T4" + ")"}}>
+                            <div class="container" >
+                                <h2>James Bond</h2>
+                                <p class="title">CEO &amp; Founder</p>
+                                <p>lorem ipsum ipsum lorem.</p>
+                                <p>CEO@test.com</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
+
+                <div class="column">
+                    <div class="card">
+                        <div class="hero-section" style={{  background: "url(" + "https://media.licdn.com/dms/image/C561BAQG1SIL0uFUQ1A/company-background_10000/0?e=2159024400&v=beta&t=vD9AZT70vkE9pMDv7NQJ7LVl3o2qaly8CbGRS726_T4" + ")"}}>
+                            <div class="container" >
+                                <h2>James Bond</h2>
+                                <p class="title">CEO &amp; Founder</p>
+                                <p>lorem ipsum ipsum lorem.</p>
+                                <p>CEO@test.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="card">
+                        <div class="hero-section" style={{  background: "url(" + "https://media.licdn.com/dms/image/C561BAQG1SIL0uFUQ1A/company-background_10000/0?e=2159024400&v=beta&t=vD9AZT70vkE9pMDv7NQJ7LVl3o2qaly8CbGRS726_T4" + ")"}}>
+                            <div class="container" >
+                                <h2>James Bond</h2>
+                                <p class="title">CEO &amp; Founder</p>
+                                <p>lorem ipsum ipsum lorem.</p>
+                                <p>CEO@test.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="column">
+                    <div class="card">
+                        <div class="hero-section" style={{  background: "url(" + "https://media.licdn.com/dms/image/C561BAQG1SIL0uFUQ1A/company-background_10000/0?e=2159024400&v=beta&t=vD9AZT70vkE9pMDv7NQJ7LVl3o2qaly8CbGRS726_T4" + ")"}}>
+                            <div class="container" >
+                                <h2>James Bond</h2>
+                                <p class="title">CEO &amp; Founder</p>
+                                <p>lorem ipsum ipsum lorem.</p>
+                                <p>CEO@test.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="card">
+                        <div class="hero-section" style={{  background: "url(" + "https://media.licdn.com/dms/image/C561BAQG1SIL0uFUQ1A/company-background_10000/0?e=2159024400&v=beta&t=vD9AZT70vkE9pMDv7NQJ7LVl3o2qaly8CbGRS726_T4" + ")"}}>
+                            <div class="container" >
+                                <h2>James Bond</h2>
+                                <p class="title">CEO &amp; Founder</p>
+                                <p>lorem ipsum ipsum lorem.</p>
+                                <p>CEO@test.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>                      
+
             </div>
-            
-            </div>
-        </div>   
+        </div>        
     </>
     );
 }
