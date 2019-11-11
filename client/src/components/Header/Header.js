@@ -1,19 +1,35 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Header.css';
+import logo from '../../assets/BioTork_High_Definition_Logo.png';
+import {Nav, Navbar } from 'react-bootstrap';
 
-const Header = () => {
-    return (
-        <div className='topnav'>
-            {/* Logo */}
+
+
+
+const Header = () => (
+
+        <Navbar bg="light" variant="light" fixed="top">
+       
+            <Navbar.Brand id="logo-link" href="/">
+                <img className="topnav-logo" src={ logo } alt="BioTork logo" />
+            </Navbar.Brand> 
+            <Nav>
 
             {/* Page Links */}
-            <div className="topnav-right">
-                <Link className="topnav-link" to='/Home'> Home </Link> 
-                <Link className="topnav-link" to='/Executives'> Executives </Link>
-            </div>
-        </div>
+               
+                <Nav.Link href='/about'>About Us</Nav.Link>
+                <Nav.Link href='/technology'>Technology</Nav.Link>
+                <Nav.Link href='/projects'>Projects</Nav.Link>
+                <Nav.Link href='/media'>Media</Nav.Link>
+                <Nav.Link href='/contact'>Contact Us</Nav.Link> 
+                </Nav>
+        </Navbar>
+
+        
     )
-}
+
+    
+
 
 export default Header;
