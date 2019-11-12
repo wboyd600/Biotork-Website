@@ -1,25 +1,22 @@
 {
-  "name": "vertical-timeline-component-for-react",
-  "version": "1.0.6",
-  "description": "A vertical timeline component for React",
-  "author": "Veysi YILDIZ",
-  "user": "veysiyildiz",
-  "main": "dist/index.js",
+  
+  "name": "react_template_repo",
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "test:coverage": "jest --coverage",
-    "test:watch": "jest --watch",
-    "test:lint": "./node_modules/.bin/eslint . --ignore-path .gitignore",
-    "start": "webpack-dev-server --mode development",
-    "transpile": "babel src -d dist --copy-files",
-    "prepublishOnly": "npm run transpile",
-    "build": "webpack --mode production",
-    "deploy": "gh-pages -d examples/dist",
-    "publish-demo": "npm run build && npm run deploy"
+    "test": "mocha server/tests",
+    "install-all": "concurrently \"npm install\" \"cd client && npm install\"",
+    "client": "cd client && npm start",
+    "server": "nodemon server/server.js",
+    "dev": "concurrently \"nodemon server/server.js\" \"cd client && npm run start\"",
+    "build": "cd client && npm build",
+    "start": "node server/server.js",
+    "heroku-postbuild": "cd client && npm install && npm install --only=dev --no-shrinkwrap && npm run build"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/veysiyildiz/vertical-timeline-component-for-react.git"
+    "url": "https://github.com/UFWebApps/React_Template_Repo.git"
   },
   "keywords": [
     "react",
@@ -102,9 +99,7 @@
   "dependencies": {
     "classnames": "^2.2.5",
     "prop-types": "^15.6.1",
-    "react-visibility-sensor": "^5.0.2"
-  }
-  "dependencies": {
+    "react-visibility-sensor": "^5.0.2",
     "body-parser": "^1.19.0",
     "bootstrap": "^4.3.1",
     "concurrently": "^4.1.0",
@@ -118,6 +113,5 @@
     "react-bootstrap": "^1.0.0-beta.14",
     "should": "^13.2.3",
     "supertest": "^4.0.2"
-  },
-  "homepage": "https://github.com/UFWebApps/React_Template_Repo#readme"
+  }
 }
