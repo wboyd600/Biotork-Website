@@ -9,7 +9,7 @@ function Technology() {
         </head>
         <div class="container">
             <div class="row">
-                <div class="hero-section" style={{  background: "url(" + "https://alzheimersnewstoday.com/wp-content/uploads/2016/03/shutterstock_114563296-1400x480@2x.jpg" + ")"}}>
+                <div class="hero-section" style={{  background: "url(" + "https://airbus-h.assetsadobe2.com/is/image/content/dam/corporate-topics/innovation/Innovation-future-technology.jpg?wid=1920&fit=fit,1&qlt=85,0" + ")"}}>
                     <div class="hero-section-text"> 
                         <div class="heading-title text-center">
                             <h1> Our Technologies </h1>
