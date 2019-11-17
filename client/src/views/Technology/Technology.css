@@ -7,7 +7,7 @@
 }
 
 .App-header {
-    background-color: #282c34;
+  background-color: #282c34;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -25,7 +25,7 @@
 body {
     font-family: 'Source Sans Pro', sans-serif;
     line-height: 1.5;
-    color: #323232;
+    color: #FF00FF;
     font-size: 15px;
     font-weight: 400;
     text-rendering: optimizeLegibility;
