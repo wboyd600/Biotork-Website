@@ -139,10 +139,7 @@ body {
     cursor: pointer;
     width: 100%;
   }
-  
-  .card:hover {
-    background-color: #555;
-  }
+ 
 
   .card-img-top {
     padding-top: 10px;
