@@ -11,8 +11,6 @@ const App = () => {
      
       <Switch>
         <Route exact path="/Timeline" component={Timeline} />
-        
-        
         <Route component={NotFound}/>
       </Switch>
     </div>
