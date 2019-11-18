@@ -9,6 +9,7 @@ import Technology from "./views/Technology/Technology"
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from "./components/Footer/Footer"
+import Projects from "./views/Projects/Projects"
 
 const App = () => {
   return (
@@ -23,7 +24,7 @@ const App = () => {
         </Route>
         <Route exact path="/Technology" component={Technology} />
         
-
+        <Route exact path="/Projects" component={Projects} />
 
         <Route component={NotFound}/>
       </Switch>
