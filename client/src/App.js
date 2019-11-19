@@ -6,7 +6,7 @@ import Executives from "./views/Executives/Executives"
 import NotFound from "./views/NotFound"
 import Header from "./components/Header/Header"
 import Technology from "./views/Technology/Technology"
-
+import Contact from "./views/Contact/Contact";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from "./components/Footer/Footer"
 import Projects from "./views/Projects/Projects"
@@ -25,7 +25,7 @@ const App = () => {
         <Route exact path="/Technology" component={Technology} />
         
         <Route exact path="/Projects" component={Projects} />
-
+        <Route exact path="/ContactUs" component = {Contact} />
         <Route component={NotFound}/>
       </Switch>
       <Footer />
