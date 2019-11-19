@@ -1,5 +1,5 @@
 import React, { useCallback } from 'react';
-import './Contact-us.css';
+import './Contact.css';
 
 function Contact() {
 
