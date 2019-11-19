@@ -5,10 +5,20 @@ import './Contact.css';
 function Contact() {
     return(
          <>
-         <form>
-        <div class="container">
-    <div class="row">
-        <div class="col-md-8">
+            <div class="container">
+            <div class="row">
+            <div class="hero-section-text">
+            <div class="heading-title text-center">
+                    <h1> How can we help? </h1>
+                </div>
+            </div>
+
+            </div>
+
+        </div>
+
+        <div class="row">
+        <div class="col-md-12">
             <div class="well well-sm">
                 <form>
                 <div class="row">
@@ -31,13 +41,13 @@ function Contact() {
                                 Subject</label>
                             <select id="subject" name="subject" class="form-control" required="required">
                                 <option value="na" selected="">Choose One:</option>
-                                <option value="service">General Customer Service</option>
-                                <option value="suggestions">Suggestions</option>
-                                <option value="product">Product Support</option>
+                                <option value="stuff1">Stuff1</option>
+                                <option value="stuff2">Stuff2</option>
+                                <option value="stuff3">Stuff3</option>
                             </select>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-8">
                         <div class="form-group">
                             <label for="name">
                                 Message</label>
@@ -46,7 +56,7 @@ function Contact() {
                         </div>
                     </div>
                     <div class="col-md-12">
-                        <button type="submit" class="btn btn-primary pull-right" id="btnContactUs">
+                        <button type="submit" class="btn btn-primary" id="btnContactUs">
                             Send Message</button>
                     </div>
                 </div>
@@ -54,8 +64,6 @@ function Contact() {
             </div>
         </div>
     </div>
-</div>
-</form>
 </>
     );
 }
