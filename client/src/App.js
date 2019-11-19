@@ -6,10 +6,10 @@ import Executives from "./views/Executives/Executives"
 import NotFound from "./views/NotFound"
 import Header from "./components/Header/Header"
 import Technology from "./views/Technology/Technology"
-import Timeline from "./components/Timeline/Timeline"
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from "./components/Footer/Footer"
+import Projects from "./views/Projects/Projects"
 
 const App = () => {
   return (
@@ -23,8 +23,8 @@ const App = () => {
           <Redirect to="/Home" />
         </Route>
         <Route exact path="/Technology" component={Technology} />
-        <Route exact path="/Timeline" component={Timeline} />
-
+        
+        <Route exact path="/Projects" component={Projects} />
 
         <Route component={NotFound}/>
       </Switch>
