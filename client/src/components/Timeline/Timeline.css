@@ -1,17 +1,11 @@
-* {
-  box-sizing: border-box;
-}
-
-body {
-  background-color: #474e5d;
-  font-family: Helvetica, sans-serif;
-}
-
 /* The actual timeline (the vertical ruler) */
 .timeline {
   position: relative;
   max-width: 1200px;
   margin: 0 auto;
+  background-color: #474e5d;
+  font-family: Helvetica, sans-serif;
+  box-sizing: border-box;
 }
 
 /* The actual timeline (the vertical ruler) */
@@ -27,7 +21,7 @@ body {
 }
 
 /* Container around content */
-.container {
+.timelinecontainer {
   padding: 10px 40px;
   position: relative;
   background-color: inherit;
@@ -35,7 +29,7 @@ body {
 }
 
 /* The circles on the timeline */
-.container::after {
+.timelinecontainer::after {
   content: '';
   position: absolute;
   width: 25px;
@@ -92,7 +86,7 @@ body {
 }
 
 /* The actual content */
-.content {
+.timelinecontent {
   background-color: white;
   position: relative;
   border-radius: 6px;
@@ -103,7 +97,7 @@ body {
     }
     
     /* Full-width containers */
-    .container {
+    .timelinecontainer {
     width: 100%;
     padding-left: 70px;
     padding-right: 25px;
@@ -112,7 +106,7 @@ body {
    
   
     /* Make sure that all arrows are pointing leftwards */
-    .container::before {
+    .timelinecontainer::before {
     left: 60px;
     border: medium solid white;
     border-width: 10px 10px 10px 0;
@@ -137,7 +131,7 @@ body {
   }
   
   /* Full-width containers */
-  .container {
+  .timelinecontainer {
   width: 100%;
   padding-left: 70px;
   padding-right: 25px;
@@ -146,7 +140,7 @@ body {
   
 
   /* Make sure that all arrows are pointing leftwards */
-  .container::before {
+  .timelinecontainer::before {
   left: 60px;
   border: medium solid white;
   border-width: 10px 10px 10px 0;
@@ -156,8 +150,53 @@ body {
   /* Make sure all circles are at the same spot */
   .left::after, .right::after {
   left: 15px;
+      .container2 {
+        position: relative;
+        width: 50%;
+      }
+      
+      .image {
+        display: block;
+        width: 100%;
+        height: auto;
+        border-radius: 10%;
+      }
+      
+      .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        border-radius:10%;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: white;
+      }
+      
+      .content:hover .overlay {
+        opacity: 1;
+      }
+      
+      .timelinetext {
+        color: black;
+        font-size: 90%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+      .timelinecontainer3 {
+    position: relative;
+    text-align: center;
+    color: white;
   }
-  
+}
   /* Make all right containers behave like the left ones */
   .right {
   left: 0%;
@@ -193,7 +232,7 @@ body {
   opacity: 1;
 }
   
-.text {
+.timelinetext {
   color: black;
   font-size: 100%;
   position: absolute;
@@ -204,12 +243,12 @@ body {
   transform: translate(-50%, -50%);
   text-align: center;
 }
-.container3 {
+.timelinecontainer3 {
   position: relative;
   text-align: center;
   color: white;
 }
-.centered {
+.timelinecentered {
   position: absolute;
   top: 50%;
   left: 50%;
