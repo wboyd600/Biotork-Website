@@ -2,16 +2,19 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Contact.css';
 
-function Contact() {
-    // constructor(props) {
-    //     super(props);
-    //     this.state = {
-    //       name: '',
-    //       email: '',
-    //       message: ''
-    //     }
-    //   }
-    
+class Contact extends React.Component{
+    constructor(props) {
+        super(props);
+        this.state = {
+          fname: '',
+          lname: '',
+          email: '',
+          selection: '',
+          message: ''
+        };
+      }
+
+    render(){
     return(
          <>
          <head>
@@ -104,5 +107,6 @@ function Contact() {
 
 </>
     );
+    }
 }
 export default Contact;
