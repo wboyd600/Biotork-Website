@@ -14,6 +14,7 @@ import FuelEthanol from "./views/Projects/FuelEthanol"
 import OmegaOils from "./views/Projects/OmegaOils"
 import ConsumerAlcohol from "./views/Projects/ConsumerAlcohol"
 import Phytase from './views/Projects/Phytase';
+import AboutUs from './views/AboutUs/AboutUs';
 
 
 const App = () => {
@@ -27,6 +28,7 @@ const App = () => {
         <Route exact path="/">
           <Redirect to="/Home" />
         </Route>
+        <Route exact path="/About" component={AboutUs} />
         <Route exact path="/Technology" component={Technology} />
         
         <Route exact path="/Projects" component={Projects} />
