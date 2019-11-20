@@ -3,6 +3,15 @@ import { Link } from 'react-router-dom';
 import './Contact.css';
 
 function Contact() {
+    // constructor(props) {
+    //     super(props);
+    //     this.state = {
+    //       name: '',
+    //       email: '',
+    //       message: ''
+    //     }
+    //   }
+    
     return(
          <>
          <head>
@@ -42,8 +51,13 @@ function Contact() {
                     <div class="col-md-12">
                         <div class="form-group">
                             <label for="name">
-                                Name</label>
-                            <input type="text" class="form-control" id="name" placeholder="Enter name" required="required" />
+                                First Name</label>
+                            <input type="text" class="form-control" id="fname" placeholder="Enter first name" required="required" />
+                        </div>
+                        <div class="form-group">
+                            <label for="lname">
+                                Last Name</label>
+                            <input type="text" class="form-control" id="lname" placeholder="Enter last name" required="required" />
                         </div>
                         <div class="form-group">
                             <label for="email">
