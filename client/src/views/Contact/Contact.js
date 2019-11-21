@@ -2,24 +2,31 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Contact.css';
 
-class Contact extends React.Component{
-    constructor(props) {
+class Contact extends React.Component {
+     constructor(props) {
         super(props);
         this.state = {
-          fname: '',
-          lname: '',
-          email: '',
-          selection: '',
-          message: ''
+            firstName:      "",
+            lastName:       "",
+            formEmail:      "",
+            formSubject:    "",
+            formMessage:    ""
         };
-      }
+        this.handleInputChange = this.handleInputChange.bind(this);
+    }
 
-    render(){
+    handleInputChange(event) {
+        this.setState({[event.target.name] : event.target.value});
+        console.log(event.target.value);
+    }
+
+    render() {
     return(
          <>
-         <head>
+        <head>
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
         </head>
+
             <div class="container">
             <div class="row">
             <div class="hero-section">
@@ -52,40 +59,81 @@ class Contact extends React.Component{
                 <div class="row">
 
                     <div class="col-md-12">
+
                         <div class="form-group">
                             <label for="name">
                                 First Name</label>
-                            <input type="text" class="form-control" id="fname" placeholder="Enter first name" required="required" />
+                            <input 
+                                type="text" 
+                                class="form-control" 
+                                name="fname" 
+                                placeholder="Enter first name" 
+                                required="required"
+                                firstname = {this.state.fname}
+                                onChange = {this.handleInputChange}
+                            />
                         </div>
+
                         <div class="form-group">
                             <label for="lname">
                                 Last Name</label>
-                            <input type="text" class="form-control" id="lname" placeholder="Enter last name" required="required" />
+                            <input 
+                                type="text" 
+                                class="form-control" 
+                                name="lname" 
+                                placeholder="Enter last name" 
+                                required="required" 
+                                lastName = {this.state.lastName}
+                                onChange = {this.handleInputChange}
+                            />
                         </div>
+
                         <div class="form-group">
                             <label for="email">
                                 Email Address</label>
                             <div class="input-group">
                                 <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
                                 </span>
-                                <input type="email" class="form-control" id="email" placeholder="Enter email" required="required" /></div>
+                                <input 
+                                    type="email" 
+                                    class="form-control" 
+                                    name="email" 
+                                    placeholder="Enter email" 
+                                    required="required"
+                                    formEmail = {this.state.email}
+                                    onChange = {this.handleInputChange} 
+                                />
+                            </div>
                         </div>
+
                         <div class="form-group">
                             <label for="subject">
                                 Subject</label>
-                            <select id="subject" name="subject" class="form-control" required="required">
-                                <option value="na" selected="">Choose One:</option>
-                                <option value="stuff1">Stuff1</option>
-                                <option value="stuff2">Stuff2</option>
-                                <option value="stuff3">Stuff3</option>
-                            </select>
+                            <input 
+                                type="text" 
+                                class="form-control" 
+                                name="subject" 
+                                placeholder="Enter subject" 
+                                required="required" 
+                                formSubject = {this.state.subject}
+                                onChange = {this.handleInputChange}
+                            />
                         </div>
+                        
                     </div>
+
                     <div class="col-md-12">
                         <div class="form-group">
                             <label for="name">
                                 Message</label>
-                            <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
+                            <textarea name="message" 
+                                name="message" 
+                                class="form-control" 
+                                rows="9" cols="25" 
+                                required="required"
+                                formMessage = {this.state.message}
+                                onChange = {this.handleInputChange}
+
                                 placeholder="Message"></textarea>
                         </div>
                     </div>
@@ -104,9 +152,8 @@ class Contact extends React.Component{
         </div>
     </div>
     </div>
-
 </>
-    );
-    }
+    )
+}
 }
 export default Contact;
