@@ -1,0 +1,13 @@
+
+.project-hero-section {
+    background: url('../../assets/Projects_Background.png') 50% no-repeat;
+    background-size: cover;
+    height: 60vh;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    
+  }
