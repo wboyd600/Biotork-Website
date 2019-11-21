@@ -1,14 +1,11 @@
 import React from 'react';
+import logo from '../../assets/logo.svg';
 import './Home.css';
 
 function Home() {
     return (
-        <div className="bg">
-            <p className = "text">Welcome to BioTork <br/>
-            <div className = "text2">Evolving beyond the imagination</div></p>
-            {/*
+        <div className="App">
             <header className="App-header">
-
                 <img src={logo} className="App-logo" alt="logo" />
                 <p>
                     Edit <code>src/App.js</code> and save to reload.
@@ -21,8 +18,7 @@ function Home() {
                 >
                 </a>
             </header>
-            */}
-    </div>
+        </div>
     );
 }
 

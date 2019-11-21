@@ -1,43 +1,31 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Header.css';
-import logo from '../../assets/BioTork_High_Definition_Logo.png';
-import {Nav, Navbar } from 'react-bootstrap';
 
+const Header = () => {
+    return (
+        <div className='topnav'>
+            {/* Logo */}
+            <Link id="logo-link" to="/">
+                <img className="topnav-logo" src={ "/logo192.png" } alt="React logo" />
+            </Link>
 
-
-
-const Header = () => (
-
-        <Navbar bg="light" variant="light" fixed="top" expand="sm">
-       
-            <Navbar.Brand id="logo-link" href="/">
-                <img className="topnav-logo" src={ logo } alt="BioTork logo" />
-            </Navbar.Brand> 
-            
             {/* Page Links */}
-        {/*  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navLinks" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-</button> */}
-
-                <Navbar.Toggle aria-controls="basic-navbar-nav"/>
-                <Navbar.Collapse id="basic-navbar-nav">
-                <Nav classname="ml-auto">
-                <Nav.Link href='/about'>About Us</Nav.Link>
-                <Nav.Link href='/technology'>Technology</Nav.Link>
-                <Nav.Link href='/executives'>Executives</Nav.Link>
-                <Nav.Link href='/projects'>Projects</Nav.Link>
-                <Nav.Link href='/media'>Media</Nav.Link>
-                <Nav.Link href='/contact'>Contact Us</Nav.Link> 
-        
-                </Nav>
-                </Navbar.Collapse>
-        </Navbar>
-
-        
+            <div className="topnav-right">
+                <Link className="topnav-link" to='/Register'>Sign in</Link>
+                <Link className="topnav-link" to='/projects'>Projects</Link>
+                <a className="topnav-link" target='_blank' rel="noopener noreferrer" href="https://www.facebook.com/groups/ufosc/events/?source=4&action_history=null&filter=calendar">
+                    Events
+                    <i className="fas fa-external-link-alt external-link" data-fa-transform="up-6"></i>
+                </a>
+                <a className="topnav-link" target='_blank' rel="noopener noreferrer" href="https://github.com/ufosc/club-resources">
+                    Resources
+                    <i className="fas fa-external-link-alt external-link" data-fa-transform="up-6 right-4"></i>
+                </a>
+                <Link className="topnav-link" to="/about">About</Link>
+            </div>
+        </div>
     )
-
-    
-
+}
 
 export default Header;
