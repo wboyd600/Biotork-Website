@@ -19,6 +19,7 @@ const App = () => {
       <Header />
 
       <Switch>
+        <Route exact path="/Timeline" component={Timeline} />
         <Route exact path="/Home" component={Home} />
         <Route exact path="/Executives" component = {Executives} />
         <Route exact path="/">
