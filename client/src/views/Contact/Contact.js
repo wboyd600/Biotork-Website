@@ -8,17 +8,28 @@ class Contact extends React.Component {
         this.state = {
             firstName:      "",
             lastName:       "",
-            formEmail:      "",
-            formSubject:    "",
-            formMessage:    ""
+            email:          "",
+            subject:        "",
+            message:        ""
         };
         this.handleInputChange = this.handleInputChange.bind(this);
+        this.handleSubmit = this.handleSubmit.bind(this);
     }
 
     handleInputChange(event) {
         this.setState({[event.target.name] : event.target.value});
-        console.log(event.target.value);
+        console.log(event.target.name + ": " + event.target.value);
     }
+
+    handleSubmit(event) {
+        alert("Form Submitted: "   + 
+        this.state.firstName + " " +
+        this.state.lastName  + " " + 
+        this.state.email     + " " +
+        this.state.subject   + " " +
+        this.state.message);
+        event.preventDefault();
+      }
 
     render() {
         return(
@@ -58,34 +69,35 @@ class Contact extends React.Component {
                 <div class="col-md-12">
                     <div class="well well-sm">
 
-                        <form>
+                        <form onSubmit = {this.handleSubmit}>
                             <div class="row">
                                 <div class="col-md-12">
 
                                     <div class="form-group">
-                                        <label for="fname">
+                                        <label for="firstName">
                                             First Name
                                         </label>
 
                                         <input 
                                             type="text" 
                                             class="form-control" 
-                                            name="fname" 
+                                            name="firstName" 
                                             placeholder="Enter first name" 
                                             required="required"
-                                            firstname = {this.state.fname}
+                                            firstname = {this.state.firstname}
                                             onChange = {this.handleInputChange}
                                         />
                                     </div>
 
                                     <div class="form-group">
-                                        <label for="lname">
-                                            Last Name</label>
+                                        <label for="lastName">
+                                            Last Name
+                                        </label>
 
                                         <input 
                                             type="text" 
                                             class="form-control" 
-                                            name="lname" 
+                                            name="lastName" 
                                             placeholder="Enter last name" 
                                             required="required" 
                                             lastName = {this.state.lastName}
@@ -108,7 +120,7 @@ class Contact extends React.Component {
                                                 name="email" 
                                                 placeholder="Enter email" 
                                                 required="required"
-                                                formEmail = {this.state.email}
+                                                email = {this.state.email}
                                                 onChange = {this.handleInputChange} 
                                             />
                                         </div>
@@ -125,7 +137,7 @@ class Contact extends React.Component {
                                             name="subject" 
                                             placeholder="Enter subject" 
                                             required="required" 
-                                            formSubject = {this.state.subject}
+                                            subject = {this.state.subject}
                                             onChange = {this.handleInputChange}
                                         />
                                     </div> 
@@ -133,7 +145,7 @@ class Contact extends React.Component {
 
                                 <div class="col-md-12">
                                     <div class="form-group">
-                                        <label for="name">
+                                        <label for="message">
                                             Message
                                         </label>
                                 
@@ -142,7 +154,7 @@ class Contact extends React.Component {
                                             class="form-control" 
                                             rows="9" cols="25" 
                                             required="required"
-                                            formMessage = {this.state.message}
+                                            message = {this.state.message}
                                             onChange = {this.handleInputChange}
                                             placeholder="Message">    
                                         </textarea>
