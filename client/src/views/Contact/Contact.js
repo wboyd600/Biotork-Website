@@ -22,11 +22,10 @@ class Contact extends React.Component {
     }
 
     handleSubmit(event) {
-        alert("Form Submitted: "   + 
-        this.state.firstName + " " +
-        this.state.lastName  + " " + 
-        this.state.email     + " " +
-        this.state.subject   + " " +
+        alert("Contact Form Submitted " + "\n" + 
+        "Name:  " + this.state.firstName + " " + this.state.lastName  + "\n" + 
+        "Email: " + this.state.email     + "\n\n" +
+        "Subject:   " + this.state.subject   + "\n" +
         this.state.message);
         event.preventDefault();
       }
