@@ -1,5 +1,4 @@
 {
-  
   "name": "react_template_repo",
   "version": "1.0.0",
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
@@ -29,11 +28,9 @@
     "react-dom": ">= 0.11.2 <= 16"
   },
   "dependencies": {
-    "classnames": "^2.2.5",
-    "prop-types": "^15.6.1",
-    "react-visibility-sensor": "^5.0.2",
     "body-parser": "^1.19.0",
     "bootstrap": "^4.3.1",
+    "classnames": "^2.2.5",
     "concurrently": "^4.1.0",
     "express": "^4.17.1",
     "jquery": "^3.4.1",
@@ -42,9 +39,10 @@
     "morgan": "^1.9.1",
     "nodemon": "^1.18.10",
     "popper.js": "^1.16.0",
+    "prop-types": "^15.6.1",
     "react-bootstrap": "^1.0.0-beta.14",
+    "react-visibility-sensor": "^5.0.2",
     "should": "^13.2.3",
     "supertest": "^4.0.2"
   }
 }
-

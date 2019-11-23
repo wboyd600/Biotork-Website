@@ -1,5 +1,6 @@
 import React from 'react';
 import { Route, Switch, Redirect  } from 'react-router-dom';
+
 import Home from "./views/Home/Home"
 import Executives from "./views/Executives/Executives"
 
@@ -11,6 +12,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from "./components/Footer/Footer"
 import Projects from "./views/Projects/Projects"
 
+import Timeline from "./components/Timeline/Timeline"
 const App = () => {
   return (
     <div>
@@ -25,6 +27,7 @@ const App = () => {
         <Route exact path="/Technology" component={Technology} />
         
         <Route exact path="/Projects" component={Projects} />
+        <Route exact path="/Timeline" component={Timeline} />
 
         <Route component={NotFound}/>
       </Switch>
