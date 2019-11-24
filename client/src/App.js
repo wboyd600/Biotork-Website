@@ -1,5 +1,6 @@
 import React from 'react';
 import { Route, Switch, Redirect  } from 'react-router-dom';
+
 import Home from "./views/Home/Home"
 import Executives from "./views/Executives/Executives"
 
@@ -17,12 +18,14 @@ import Phytase from './views/Projects/Phytase';
 import AboutUs from './views/AboutUs/AboutUs';
 
 
+import Timeline from "./components/Timeline/Timeline"
 const App = () => {
   return (
     <div>
       <Header />
 
       <Switch>
+        <Route exact path="/Timeline" component={Timeline} />
         <Route exact path="/Home" component={Home} />
         <Route exact path="/Executives" component = {Executives} />
         <Route exact path="/">
@@ -32,12 +35,15 @@ const App = () => {
         <Route exact path="/Technology" component={Technology} />
         
         <Route exact path="/Projects" component={Projects} />
+
         <Route exact path="/Projects/Fuel-Ethanol" component={FuelEthanol} />
         <Route exact path="/Projects/Omega-Oils" component={OmegaOils} />
         <Route exact path="/Projects/Consumer-Alcohol" component={ConsumerAlcohol} />
         <Route exact path="/Projects/Phytase" component={Phytase} />
 
 
+
+        <Route exact path="/Timeline" component={Timeline} />
 
         <Route component={NotFound}/>
       </Switch>
