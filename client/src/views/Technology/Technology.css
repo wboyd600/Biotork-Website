@@ -1,3 +1,17 @@
+.project-hero-section {
+  background: url('../../assets/Technology_Background.jpg') 50% no-repeat;
+  background-size: cover;
+  height: 60vh;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
 .App {
     text-align: center;
 }
@@ -86,6 +100,7 @@ body {
 }
 
 /* Four columns side by side */
+
 .column {
     width: 20%;
     margin-bottom: 0px;
