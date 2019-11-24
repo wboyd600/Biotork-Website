@@ -10,6 +10,11 @@ import Contact from "./views/Contact/Contact";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from "./components/Footer/Footer"
 import Projects from "./views/Projects/Projects"
+import FuelEthanol from "./views/Projects/FuelEthanol"
+import OmegaOils from "./views/Projects/OmegaOils"
+import ConsumerAlcohol from "./views/Projects/ConsumerAlcohol"
+import Phytase from './views/Projects/Phytase';
+
 
 const App = () => {
   return (
@@ -26,6 +31,15 @@ const App = () => {
         
         <Route exact path="/Projects" component={Projects} />
         <Route exact path="/Contact" component = {Contact} />
+
+        <Route exact path="/Projects/Fuel-Ethanol" component={FuelEthanol} />
+        <Route exact path="/Projects/Omega-Oils" component={OmegaOils} />
+        <Route exact path="/Projects/Consumer-Alcohol" component={ConsumerAlcohol} />
+        <Route exact path="/Projects/Phytase" component={Phytase} />
+
+
+
+
         <Route component={NotFound}/>
       </Switch>
       <Footer />
