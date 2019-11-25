@@ -6,7 +6,7 @@ function Carbon() {
         <>
         <div class="container">
             <div class="row">
-                <div class="hero-section" style={{  background: './Carbon.jpeg'}}>
+                <div class="carbon-hero-section" style={{  background: './Carbon.jpeg'}}>
                     <div class="hero-section-text"> 
                         <div class="heading-title text-center">
                             <h1> Utilization of non-optimal carbon or nutrient sources </h1>
@@ -19,7 +19,7 @@ function Carbon() {
         <div class="container">
             <div class="row">
                 <div class="heading-detail text-center">
-                    <p class="center-txt ">Product yield, also known as stoichiometric yield, is a measure of the efficiency of conversion of feedstock to product. A 50% conversion means that for every metric ton of feedstock used, 500 kg of product are produced. For every product and feedstock there is a theoretical maximum yield. For example, for the conversion of sugar to ethanol the theoretical maximum yield is 51%, however, most industrial ethanol producers get a yield of 45-48%. This is due to inefficiencies in the process and the production of off-target products like biomass and other metabolites. The increase in flux to the desired end product will increase product yield and, subsequently, titer and productivity. Evolutionary optimization is an excellent way to improve stoichiometric yield, especially when product synthesis is tied to growth.</p>
+                    <p class="center-txt "> Many microbes that are being investigated for industrial purposes perform well in the lab under conditions of optimal nutrition, yet fail to work upon scale up to industrial conditions. Moreover, they often work well on defined media that contain some nutrient sources but not on others. For example, many microbes grow well with a rich nitrogen source like yeast extract, but not with something like urea or ammonium sulfate. This “pickiness” with respect to nutrient sources can drastically increase the cost of production by requiring expensive inputs. The use of evolutionary optimization has been routinely used by BioTork to adapt microbes to perform as well on suboptimal nutrient sources as they do on the optimal sources, thereby reducing the cost of goods. </p>
                     <p class="center-txt " > </p>
                 </div>
             </div>
