@@ -1,7 +1,7 @@
 import React from 'react';
 import './Technology.css';
 
-function ProductYield() {
+function Culture() {
     return (
         <>
         <div class="container">
@@ -28,4 +28,4 @@ function ProductYield() {
     );
 }
 
-export default ProductYield;
+export default Culture;
