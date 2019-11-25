@@ -70,8 +70,8 @@ justify-content: center;
 .culture-hero-section {
   background: url('./Culture.jpg') 50% no-repeat;
   background-size: cover;
-  height: 100vh;
-  width: 60%;
+  height: 60vh;
+  width: 100%;
   text-align: center;
   display: flex;
   align-items: center;
@@ -81,8 +81,8 @@ justify-content: center;
 .growth-hero-section {
   background: url('./GrowthRate.jpg') 50% no-repeat;
   background-size: cover;
-  height: 100vh;
-  width: 60%;
+  height: 60vh;
+  width: 100%;
   text-align: center;
   display: flex;
   align-items: center;
@@ -92,8 +92,8 @@ justify-content: center;
 .productivity-hero-section {
   background: url('./Productivity.jpg') 50% no-repeat;
   background-size: cover;
-  height: 100vh;
-  width: 60%;
+  height: 60vh;
+  width: 100%;
   text-align: center;
   display: flex;
   align-items: center;
@@ -103,8 +103,8 @@ justify-content: center;
 .yield-hero-section {
   background: url('./ProductYield.jpg') 50% no-repeat;
   background-size: cover;
-  height: 100vh;
-  width: 60%;
+  height: 60vh;
+  width: 100%;
   text-align: center;
   display: flex;
   align-items: center;
@@ -114,8 +114,8 @@ justify-content: center;
 .robust-hero-section {
   background: url('./Robust.jpg') 50% no-repeat;
   background-size: cover;
-  height: 100vh;
-  width: 60%;
+  height: 60vh;
+  width: 100%;
   text-align: center;
   display: flex;
   align-items: center;
@@ -125,8 +125,8 @@ justify-content: center;
 .titers-hero-section {
   background: url('./Titers.jpg') 50% no-repeat;
   background-size: cover;
-  height: 100vh;
-  width: 60%;
+  height: 60vh;
+  width: 100%;
   text-align: center;
   display: flex;
   align-items: center;
@@ -136,8 +136,8 @@ justify-content: center;
 .tolerance-hero-section {
   background: url('./Tolerance.jpg') 50% no-repeat;
   background-size: cover;
-  height: 100vh;
-  width: 60%;
+  height: 60vh;
+  width: 100%;
   text-align: center;
   display: flex;
   align-items: center;
