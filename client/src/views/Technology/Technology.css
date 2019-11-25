@@ -1,60 +1,60 @@
-.project-hero-section {
-  background: url('../../assets/Technology_Background.jpg') 50% no-repeat;
-  background-size: cover;
-  height: 60vh;
+/* Four columns side by side */
+
+.column {
+  width: 25%;
+  margin-bottom: 0px;
+  margin-top: 0px; 
+  padding: 0 8px;
+  
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card-img-top {
+  padding-top: 10px;
   width: 100%;
+  height: 35w;
+  object-fit: cover;
+  border-radius: 10%;
+}
+
+
+.hero-section {
+background: url('https://alzheimersnewstoday.com/wp-content/uploads/2016/03/shutterstock_114563296-1400x480@2x.jpg') 50% no-repeat;
+background-size: cover;
+height: 60vh;
+width: 100%;
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.greateryield-hero-section {
+  background: url('./Product_Yields_Background.jpg') 50% no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 60%;
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.fuel-hero-section {
-  background: url('../../assets/Technology_Background.jpg') 50% no-repeat;
+.growth-hero-section {
+  background: url('./Growth_Rate.jpg') 50% no-repeat;
   background-size: cover;
-  height: 60vh;
-  width: 100%;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.omega-hero-section {
-  background: url('../../assets/Technology_Background.jpg') 50% no-repeat;
-  background-size: cover;
-  height: 60vh;
-  width: 100%;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.phytase-hero-section {
-  background: url('../../assets/Technology_Background.jpg') 50% no-repeat;
-  background-size: cover;
-  height: 60vh;
-  width: 100%;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.consumer-hero-section {
-  background: url('../../assets/Technology_Background.jpg') 50% no-repeat;
-  background-size: cover;
-  height: 60vh;
-  width: 100%;
+  height: 100vh;
+  width: 60%;
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-
-.project-txt{
-  font-family: 'Roboto', sans-serif;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
