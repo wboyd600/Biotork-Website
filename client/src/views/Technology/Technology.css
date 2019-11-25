@@ -1,7 +1,27 @@
-/* Four columns side by side */
+.text-center {
+  text-align: center;
+}
+.heading-title h3 {
+  margin-bottom: 0;
+  letter-spacing: 3px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+.heading-detail p{
+  width: 100%;
+  letter-spacing: 2px;
+  font-weight: darker;
+}
+.heading-title h1 {
+margin-bottom: 0;
+letter-spacing: 3px;
+font-weight: normal;
+text-transform: uppercase;
+}
 
+/* Four columns side by side */
 .column {
-  width: 25%;
+  width: 20%;
   margin-bottom: 0px;
   margin-top: 0px; 
   padding: 0 8px;
@@ -11,7 +31,7 @@
 /* Display the columns below each other instead of side by side on small screens */
 @media screen and (max-width: 650px) {
   .column {
-    width: 100%;
+    width: 100;
     display: block;
   }
 }
