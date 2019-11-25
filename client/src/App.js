@@ -29,6 +29,7 @@ const App = () => {
         <Route exact path="/">
           <Redirect to="/Home" />
         </Route>
+        
         <Route exact path="/Technology" component={Technology} />
         <Route exact path="/Technology/Carbon" component = {Carbon} />
         <Route exact path="/Technology/Culture" component = {Culture} />

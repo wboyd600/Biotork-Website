@@ -6,10 +6,10 @@ function Carbon() {
         <>
         <div class="container">
             <div class="row">
-                <div class="hero-section" style={{  background: './Product_Yields_Background.jpg'}}>
+                <div class="hero-section" style={{  background: './Carbon.jpeg'}}>
                     <div class="hero-section-text"> 
                         <div class="heading-title text-center">
-                            <h1> Greater Product Yield </h1>
+                            <h1> Utilization of non-optimal carbon or nutrient sources </h1>
                         </div>
                     </div>
                 </div>

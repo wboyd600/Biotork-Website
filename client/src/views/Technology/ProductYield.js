@@ -6,7 +6,7 @@ function ProductYield() {
         <>
         <div class="container">
             <div class="row">
-                <div class="hero-section" style={{  background: './Product_Yields_Background.jpg'}}>
+                <div class="greateryield-hero-section" style={{  background: './ProductYield.jpg'}}>
                     <div class="hero-section-text"> 
                         <div class="heading-title text-center">
                             <h1> Greater Product Yield </h1>

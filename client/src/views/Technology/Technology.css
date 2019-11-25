@@ -46,7 +46,7 @@ text-transform: uppercase;
 
 
 .hero-section {
-background: url('https://alzheimersnewstoday.com/wp-content/uploads/2016/03/shutterstock_114563296-1400x480@2x.jpg') 50% no-repeat;
+background: url('./Technology.jpg') 50% no-repeat;
 background-size: cover;
 height: 60vh;
 width: 100%;
@@ -56,8 +56,19 @@ align-items: center;
 justify-content: center;
 }
 
-.greateryield-hero-section {
-  background: url('./ProductYield.jpg') 50% no-repeat;
+.carbon-hero-section {
+  background: url('./Carbon.jpeg') 50% no-repeat;
+  background-size: cover;
+  height: 60vh;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.culture-hero-section {
+  background: url('./Culture.jpg') 50% no-repeat;
   background-size: cover;
   height: 100vh;
   width: 60%;
@@ -77,4 +88,61 @@ justify-content: center;
   align-items: center;
   justify-content: center;
 }
+
+.productivity-hero-section {
+  background: url('./Productivity.jpg') 50% no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 60%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.yield-hero-section {
+  background: url('./ProductYield.jpg') 50% no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 60%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.robust-hero-section {
+  background: url('./Robust.jpg') 50% no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 60%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.titers-hero-section {
+  background: url('./Titers.jpg') 50% no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 60%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tolerance-hero-section {
+  background: url('./Tolerance.jpg') 50% no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 60%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
 
