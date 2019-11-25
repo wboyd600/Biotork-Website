@@ -144,5 +144,17 @@ justify-content: center;
   justify-content: center;
 }
 
+.faq-hero-section {
+  background: url('./FAQ.jpg') 50% no-repeat;
+  background-size: cover;
+  height: 60vh;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
 
 

@@ -22,7 +22,7 @@ function Technology() {
         <div class="container">
             <div class="row">
                 <h2 class="heading-title text-center">
-                    <Link className="FAQ-Link" to='/FAQ'>Frequently Asked Questions</Link>    
+                    <Link className="FAQ-Link" to='Technology/FAQ'>Frequently Asked Questions</Link>    
                 </h2>
 
                 <h1 class="heading-title text-center">

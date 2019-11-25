@@ -14,6 +14,7 @@ import ProductYield from "./views/Technology/ProductYield"
 import Robust from "./views/Technology/Robust"
 import Titers from "./views/Technology/Titers"
 import Tolerance from "./views/Technology/Tolerance"
+import FAQ from "./views/Technology/FAQ"
 
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -39,6 +40,7 @@ const App = () => {
         <Route exact path="/Technology/Robust" component = {Robust} />
         <Route exact path="/Technology/Titers" component = {Titers} />
         <Route exact path="/Technology/Tolerance" component = {Tolerance} />
+        <Route exact path="/Technology/FAQ" component = {FAQ} />
 
 
         <Route component={NotFound}/>
