@@ -57,7 +57,7 @@ justify-content: center;
 }
 
 .greateryield-hero-section {
-  background: url('./Product_Yields_Background.jpg') 50% no-repeat;
+  background: url('./ProductYield.jpg') 50% no-repeat;
   background-size: cover;
   height: 100vh;
   width: 60%;
@@ -68,7 +68,7 @@ justify-content: center;
 }
 
 .growth-hero-section {
-  background: url('./Growth_Rate.jpg') 50% no-repeat;
+  background: url('./GrowthRate.jpg') 50% no-repeat;
   background-size: cover;
   height: 100vh;
   width: 60%;

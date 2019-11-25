@@ -44,91 +44,107 @@ function Technology() {
              <div class="flex-container">
 
                 <div class="column">
-                    <div class="card">
-                        <img class="card-img-top" 
-                            src={require('./Product_Yields_Background.jpg')}> 
-                        </img>
-                        <div class="container" >
-                            <p class = "title"> Greater Product Yields</p>    
+                    <a href='/Technology/ProductYield'>
+                        <div class="card">
+                            <img class="card-img-top" 
+                                src={require('./ProductYield.jpg')}> 
+                            </img>
+                            <div class="container" >
+                                <p class = "title"> Greater Product Yields</p>    
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
                
                 <div class="column">
-                    <div class="card">
-                        <img class="card-img-top" 
-                            src={require('./Growth_Rate.jpg')}> 
-                        </img>
-                        <div class="container" >
-                            <p class = "title"> Higher Growth Rates</p>    
+                    <a href='/Technology/GrowthRate'>
+                        <div class="card">
+                            <img class="card-img-top" 
+                                src={require('./GrowthRate.jpg')}> 
+                            </img>
+                            <div class="container" >
+                                <p class = "title"> Higher Growth Rates</p>    
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
 
                 <div class="column">
-                    <div class="card">
-                        <img class="card-img-top" 
-                            src={require('./Productivity.jpg')}> 
-                        </img>
-                        <div class="container" >
-                            <p class = "title"> Higher productivity</p>    
+                    <a href='/Technology/Productivity'>
+                        <div class="card">
+                            <img class="card-img-top" 
+                                src={require('./Productivity.jpg')}> 
+                            </img>
+                            <div class="container" >
+                                <p class = "title"> Higher productivity</p>    
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
 
                 <div class="column">
-                    <div class="card">
-                        <img class="card-img-top" 
-                            src={require('./Titers.jpg')}> 
-                        </img>
-                        <div class="container" >
-                            <p class = "title"> Higher Titers </p>    
+                    <a href='/Technology/Titers'>
+                        <div class="card">
+                            <img class="card-img-top" 
+                                src={require('./Titers.jpg')}> 
+                            </img>
+                            <div class="container" >
+                                <p class = "title"> Higher Titers </p>    
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
 
                 <div class="column">
-                    <div class="card">
-                        <img class="card-img-top" 
-                            src={require('./Culture.jpg')}> 
-                        </img>
-                        <div class="container" >
-                            <p class = "title"> Culture Densities</p>    
+                    <a href='/Technology/Culture'>
+                        <div class="card">
+                            <img class="card-img-top" 
+                                src={require('./Culture.jpg')}> 
+                            </img>
+                            <div class="container" >
+                                <p class = "title"> Culture Densities</p>    
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
 
                 <div class="column">
-                    <div class="card">
-                        <img class="card-img-top" 
-                            src={require('./Tolerance.jpg')}> 
-                        </img>
-                        <div class="container" >
-                            <p class = "title"> Higher Tolerance</p>    
+                    <a href='/Technology/Tolerance'>
+                        <div class="card">
+                            <img class="card-img-top" 
+                                src={require('./Tolerance.jpg')}> 
+                            </img>
+                            <div class="container" >
+                                <p class = "title"> Higher Tolerance</p>    
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
 
                 <div class="column">
-                    <div class="card">
-                        <img class="card-img-top" 
-                            src={require('./Temperatures.jpg')}> 
-                        </img>
-                        <div class="container" >
-                            <p class = "title"> Robust Growth</p>    
+                    <a href='/Technology/Robust'>
+                        <div class="card">
+                            <img class="card-img-top" 
+                                src={require('./Robust.jpg')}> 
+                            </img>
+                            <div class="container" >
+                                <p class = "title"> Robust Growth</p>    
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
 
                 <div class="column">
-                    <div class="card">
-                        <img class="card-img-top" 
-                            src={require('./Carbon.jpeg')}> 
-                        </img>
-                        <div class="container" >
-                            <p class = "title"> Non-Optimal Carbon </p>    
+                    <a href='/Technology/Carbon'>
+                        <div class="card">
+                            <img class="card-img-top" 
+                                src={require('./Carbon.jpeg')}> 
+                            </img>
+                            <div class="container" >
+                                <p class = "title"> Non-Optimal Carbon </p>    
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>           
             </div>
         </div>        
