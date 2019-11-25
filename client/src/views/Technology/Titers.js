@@ -6,10 +6,10 @@ function ProductYield() {
         <>
         <div class="container">
             <div class="row">
-                <div class="hero-section" style={{  background: './Product_Yields_Background.jpg'}}>
+                <div class="titers-hero-section" style={{  background: './Titers.jpg'}}>
                     <div class="hero-section-text"> 
                         <div class="heading-title text-center">
-                            <h1> Greater Product Yield </h1>
+                            <h1> Higher titers </h1>
                         </div>
                     </div>
                 </div>
@@ -19,7 +19,7 @@ function ProductYield() {
         <div class="container">
             <div class="row">
                 <div class="heading-detail text-center">
-                    <p class="center-txt ">Product yield, also known as stoichiometric yield, is a measure of the efficiency of conversion of feedstock to product. A 50% conversion means that for every metric ton of feedstock used, 500 kg of product are produced. For every product and feedstock there is a theoretical maximum yield. For example, for the conversion of sugar to ethanol the theoretical maximum yield is 51%, however, most industrial ethanol producers get a yield of 45-48%. This is due to inefficiencies in the process and the production of off-target products like biomass and other metabolites. The increase in flux to the desired end product will increase product yield and, subsequently, titer and productivity. Evolutionary optimization is an excellent way to improve stoichiometric yield, especially when product synthesis is tied to growth.</p>
+                    <p class="center-txt ">Titer is a term for how much product a cellular factory makes per fermentation volume. Titer is affected by a number of factors, including product inhibition, biomass yield of the cellular factory, optimal growth conditions and nutrient bioavailability. For obvious reasons, increasing titer is one of the quickest ways to increase the efficiency of a process. The use of evolutionary optimization to improve titer is ideal, particularly when the synthesis of the desired end product is tied to growth rate in some manner.  Often, however, when the central factor limiting product titer is not the product itself, simply improving the robustness of the microorganism under industrial conditions can significantly improve titer. In the case where the product limits its own production through some type of inhibition or toxicity, evolutionary adaptation can be effectively used to alleviate this inhibition and increase titer. Even small increases in titer can have profound impacts on an industrial process, particularly in industries where large volumes of product are made annually.</p>
                     <p class="center-txt " > </p>
                 </div>
             </div>
