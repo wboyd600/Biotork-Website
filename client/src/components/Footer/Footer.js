@@ -41,20 +41,16 @@ class Footer extends React.Component {
 	<meta charset="utf-8"></meta>
 	<meta name="viewport" content="width=device-width, initial-scale=1"></meta>
 	<meta name="keywords" content="footer, address, phone, icons" ></meta>
- 
-	<title>Responsive Footer</title>
 	
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"></link>
  
 </head>
 	<body>
-        <footer class="footer-distributed">
+        <footer class="footer-mobile-responsive">
  
 			<div class="footer-left">
           <img src={ logo }></img>
-				<h3>About<span> BioTork</span></h3>
- 
-				<div class="footer-links">
+				<div class="footer-quick-links">
                         <h2>Quick Links</h2>
                         <ul>
                             <a href="#"><li>Home</li></a>
@@ -65,7 +61,7 @@ class Footer extends React.Component {
                         </ul>
                     </div>
  
-				<p class="footer-company-name">© 2019 BioTork</p>
+				<p class="footer-company-text">© 2019 BioTork</p>
 			</div>
  
 			<div class="footer-center">
@@ -87,7 +83,7 @@ class Footer extends React.Component {
 			</div>
 			<div class="footer-right">
 				<p class="footer-company-about">
-					<span>About the company</span>
+                    <h3>About BioTork</h3>
 					Here at BioTork, our mission is to improve world 
                         sustainability and the environmental conditions 
                         of our planet for generations to come.
@@ -95,10 +91,10 @@ class Footer extends React.Component {
                         <input type="text" placeholder="Enter Email..." ref="emailField" value={this.state.value} onChange = {this.emailUpdate}></input>
                         <button variant="secondary" size="sm" onClick={() => {this.refs.emailField.value=""; this.addEmail()}}>Sign Up</button>
 				<div class="footer-icons">
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
 					<a href="#"><i class="fa fa-facebook"></i></a>
 					<a href="#"><i class="fa fa-twitter"></i></a>
 					<a href="#"><i class="fa fa-instagram"></i></a>
-					<a href="#"><i class="fa fa-linkedin"></i></a>
 					<a href="#"><i class="fa fa-youtube"></i></a>
 				</div>
 			</div>

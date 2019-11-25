@@ -1,47 +1,8 @@
-@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
-
-*{
-	padding:0;
-	margin:0;
-}
-
-html{
-	background-color: #eaf0f2;
-}
-
 body{
 	font:16px/1.6 Arial,  sans-serif;
 }
 
-header{
-	text-align: center;
-	padding-top: 100px;
-	margin-bottom:190px;
-}
-
-header h1{
-	font: normal 32px/1.5 'Open Sans', sans-serif;
-	color: #3F71AE;
-	padding-bottom: 16px;
-}
-
-header h2{
-	color: #F05283;
-}
-
-header span{
-	color: #3F71EA;
-}
-
-
-
-@media (max-height:800px){
-	footer { position: static; }
-	header { padding-top:40px; }
-}
-
-
-.footer-distributed{
+.footer-mobile-responsive{
 	background-color: #343a40;
 	box-sizing: border-box;
 	width: 100%;
@@ -51,42 +12,31 @@ header span{
 	margin-top: 80px;
 }
 
-.footer-distributed .footer-left,
-.footer-distributed .footer-center,
-.footer-distributed .footer-right{
-	display: inline-block;
-	vertical-align: top;
+.footer-mobile-responsive .footer-left{
+	width: 33%;
 }
 
-/* Footer left */
-
-.footer-distributed .footer-left{
-	width: 30%;
-}
-
-.footer-distributed h3{
+.footer-mobile-responsive h3{
 	color:  #ffffff;
 	margin: 0;
 }
 
-/* The company logo */
 
-.footer-distributed .footer-left img{
-	width: 30%;
+.footer-mobile-responsive .footer-left img{
+	width: 32%;
 }
 
-.footer-distributed h3 span{
+.footer-mobile-responsive h3 span{
 	color:  #325d3c;
 }
 
-/* Footer links */
 
-.footer-distributed .footer-links{
+.footer-mobile-responsive .footer-quick-links{
 	color:  #ffffff;
 	margin: 20px 0 12px;
 }
 
-.footer-distributed .footer-links a{
+.footer-mobile-responsive .footer-quick-links a{
     text-decoration: none;
     padding-left: 10px;
     color: grey;
@@ -103,118 +53,122 @@ header span{
     transition: all .3s;
 }
 
-.footer-distributed .footer-company-name{
+.footer-mobile-responsive .footer-company-text{
 	color:  #8f9296;
 	font-size: 14px;
 	font-weight: normal;
 	margin: 0;
 }
 
-/* Footer Center */
-
-.footer-distributed .footer-center{
+.footer-mobile-responsive .footer-center{
 	width: 35%;
 }
 
 
-.footer-distributed .footer-center i{
+.footer-mobile-responsive .footer-center i{
 	background-color:  #33383b;
 	color: #ffffff;
 	font-size: 25px;
-	width: 38px;
-	height: 38px;
+	width: 39px;
+	height: 39px;
 	border-radius: 50%;
 	text-align: center;
-	line-height: 42px;
+	line-height: 43px;
 	margin: 10px 15px;
 	vertical-align: middle;
 }
 
-.footer-distributed .footer-center i.fa-envelope{
-	font-size: 17px;
+.footer-mobile-responsive .footer-center i.fa-envelope{
+	font-size: 18px;
 	line-height: 38px;
 }
 
-.footer-distributed .footer-center p{
+.footer-mobile-responsive .footer-center p{
 	display: inline-block;
 	color: #ffffff;
 	vertical-align: middle;
 	margin:0;
 }
 
-.footer-distributed .footer-center p span{
-	display:block;
-	font-weight: normal;
-	font-size:14px;
-	line-height:2;
-}
 
-.footer-distributed .footer-center p a{
-	color:  #325d3c;
-	text-decoration: none;;
-}
-
-
-/* Footer Right */
-
-.footer-distributed .footer-right{
+.footer-mobile-responsive .footer-right{
 	width: 30%;
 }
 
-.footer-distributed .footer-company-about{
-	line-height: 20px;
+.footer-mobile-responsive .footer-company-about{
+	line-height: 22px;
 	color:  #92999f;
 	font-size: 13px;
 	font-weight: normal;
 	margin: 0;
 }
 
-.footer-distributed .footer-company-about span{
+.footer-mobile-responsive .footer-company-about span{
 	display: block;
 	color:  #ffffff;
-	font-size: 18px;
+	font-size: 20px;
 	font-weight: bold;
-	margin-bottom: 20px;
+	margin-bottom: 22px;
 }
 
-.footer-distributed .footer-icons{
-	margin-top: 25px;
-}
-
-.footer-distributed .footer-icons a{
-	display: inline-block;
-	width: 35px;
-	height: 35px;
-	cursor: pointer;
-	background-color:  #33383b;
-	border-radius: 2px;
-
+.footer-mobile-responsive .footer-icons a{
 	font-size: 20px;
 	color: #ffffff;
 	text-align: center;
 	line-height: 35px;
 
-	margin-right: 3px;
-	margin-bottom: 5px;
+	margin-right: 4px;
+	margin-bottom: 6px;
+
+	display: inline-block;
+	width: 37px;
+	height: 37px;
+	cursor: pointer;
+	background-color:  #464849;
+	border-radius: 2px;
 }
 
-/* Here is the code for Responsive Footer */
-/* You can remove below code if you don't want Footer to be responsive */
+.footer-mobile-responsive .footer-left,
+.footer-mobile-responsive .footer-center,
+.footer-mobile-responsive .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
 
+.footer-mobile-responsive .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-mobile-responsive .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-mobile-responsive .footer-center p a{
+	color:  #325d3c;
+	text-decoration: none;;
+}
 
 @media (max-width: 880px) {
 
-	.footer-distributed .footer-left,
-	.footer-distributed .footer-center,
-	.footer-distributed .footer-right{
+	.footer-mobile-responsive .footer-left,
+	.footer-mobile-responsive .footer-center,
+	.footer-mobile-responsive .footer-right{
 		display: block;
 		width: 100%;
 		margin-bottom: 40px;
 		text-align: center;
 	}
 
-	.footer-distributed .footer-center i{
+	.footer-mobile-responsive .footer-center i{
 		margin-left: 0;
 	}
 
+}
+
+@media (max-height:800px){
+	footer { position: static; }
+	header { padding-top:40px; }
 }
