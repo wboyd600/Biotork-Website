@@ -78,3 +78,8 @@
     transition: all .3s;
     
 }
+
+.button {
+    margin-top: 25px;
+    color: white;
+}
