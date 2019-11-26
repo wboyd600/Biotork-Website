@@ -24,19 +24,21 @@ function Technology() {
                 <h2 class="heading-title text-center">
                     <Link className="FAQ-Link" to='Technology/FAQ'>Frequently Asked Questions</Link>    
                 </h2>
+                <p> </p>
+
+                <h2 class="heading-title text-center">
+                    <Link className="Selection-Link" to='Technology/Selection'>Selection Scenarios</Link>    
+                </h2>
+                <p> </p>
 
                 <h1 class="heading-title text-center">
-                    Lorem ipsum dolor 
-                    sit amet, consectetur adipiscing elit
+                    BioTork can improve any type of microorganism on any kind of substrate.
                 </h1>
 
-                <div class="heading-detail text-center">
+                <div class="heading-detail">
                     <p class="center-txt ">BioTork is the world leader in the use of evolutionary optimization to develop robust cellular factories capable of converting low value carbon sources such as biomass and agro-industrial by-products into high-value bio-based chemical commodities. Instead of adapting the production process to the metabolic limitations of the microorganisms, we adapt the microorganisms to perform optimally in the simplest and most economical production process.</p>
                 </div>
-
-                <div class = "heading-detail text-center">
-                    <p class = "center-txt"> Click on a topic to learn more. </p>
-                </div>
+                <p> </p>
             </div>
         </div>
 

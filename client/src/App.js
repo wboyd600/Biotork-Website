@@ -15,7 +15,7 @@ import Robust from "./views/Technology/Robust"
 import Titers from "./views/Technology/Titers"
 import Tolerance from "./views/Technology/Tolerance"
 import FAQ from "./views/Technology/FAQ"
-
+import Selection from "./views/Technology/Selection"
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from "./components/Footer/Footer"
@@ -41,6 +41,7 @@ const App = () => {
         <Route exact path="/Technology/Titers" component = {Titers} />
         <Route exact path="/Technology/Tolerance" component = {Tolerance} />
         <Route exact path="/Technology/FAQ" component = {FAQ} />
+        <Route exact path="/Technology/Selection" component = {Selection} />
 
 
         <Route component={NotFound}/>
