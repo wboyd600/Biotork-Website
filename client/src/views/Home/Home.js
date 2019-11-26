@@ -3,6 +3,7 @@ import './Home.css';
 
 function Home() {
     return (
+        <>
         <div className="bg">
             <p className = "text">Welcome to BioTork <br/>
             <div className = "text2">Evolving beyond the imagination</div></p>
@@ -22,7 +23,9 @@ function Home() {
                 </a>
             </header>
             */}
+            
     </div>
+    </>
     );
 }
 
