@@ -42,11 +42,8 @@ const App = () => {
         <Route exact path="/">
           <Redirect to="/Home" />
         </Route>
-<<<<<<< HEAD
         <Route exact path="/About" component={AboutUs} />
-=======
         
->>>>>>> ce04a11dd93bdff5d777a92828b688f92adcb232
         <Route exact path="/Technology" component={Technology} />
 
         <Route exact path="/Technology/Carbon" component = {Carbon} />
