@@ -53,7 +53,11 @@ module.exports.init = () => {
             res.sendFile(path.join(__dirname, '../../client/build', 'index.html'));
         });
     }
-
+    app.post("/api/sendMail",(req,res) => {
+        console.log(req.body)
+    
+        //sendEmail(req.body.email,req.body.name,"hello")
+    })
     app.post('/post-email', function(req,res){ 
         console.log(req.body.email);
         const doc = new Message({ email: req.body.email })
