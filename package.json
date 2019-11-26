@@ -21,9 +21,7 @@
   "keywords": [
     "react",
     "react.js",
-    "vertical timeline",
-    "vertical",
-    "timeline"
+    "vertical"
   ],
   "license": "MIT",
   "peerDependencies": {

@@ -106,12 +106,36 @@ body {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     margin: 0 auto; /* Added */
     float: none; /* Added */
-    margin-bottom: 10px; /* Added */
+    margin-bottom: 20px !important;
+ 
+  }
+
+  .card:hover {
+    background-color: #FFFFFF;
   }
   
   /* Some left and right padding inside the container */
   .container {
     padding: 0 16px;
+    color: #000000;
+  }
+
+  .container:hover {
+    color: #000000;
+    background-color: #FFFFFF;
+  }
+
+
+  .column {
+    color: #FFFFFF;
+    background-color: #FFFFFF;
+  }
+
+  .flex-container:hover {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    color: #FFFFFF;
   }
 
   .title {
@@ -150,7 +174,7 @@ body {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-
+    color: #FFFFFF;
   }
 
 .card-img-top:hover {
@@ -166,10 +190,6 @@ body {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
-}
-
-.container:hover .social-connect {
-  opacity: 1;
 }
 
 .hero-section {

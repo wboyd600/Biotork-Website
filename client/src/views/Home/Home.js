@@ -1,7 +1,5 @@
 import React from 'react';
-import logo from '../../assets/logo.svg';
 import './Home.css';
-import background from '../../assets/wheat.jpg';
 
 function Home() {
     return (
