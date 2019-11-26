@@ -6,7 +6,7 @@ function AboutUs() {
     return (
         <div class="container">
         <div class="row">
-            <div class="about-hero-section">
+            <div class="about-hero-section"> 
                 <div class="hero-section-text"> 
                     <div class="heading-title text-center">
                         <h1> About Us</h1>
