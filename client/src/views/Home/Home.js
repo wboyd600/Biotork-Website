@@ -8,7 +8,7 @@ function Home() {
             <p className = "text">Welcome to BioTork <br/>
             <div className = "text2">Evolving beyond the imagination</div></p>
         </div>
-        <div>
+        <div className="company-announcement">
 		<p><strong>Company Announcement:</strong></p>
         <p>October 30th, 2019 – Hans van der Sluijs Joins BioTork as Chief Development Officer – <strong><a title="Hans van der Sluijs joins BioTork as CDO" href="https://biotork.files.wordpress.com/2019/10/hans-van-der-sluijs-joins-biotork-as-cdo.pdf"><span style={{ color: '#008000'}}>News Release</span></a></strong></p>
         <p><strong>Company Announcement:<br></br>
