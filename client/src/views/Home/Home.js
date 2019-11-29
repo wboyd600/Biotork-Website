@@ -8,8 +8,7 @@ function Home() {
             <p className = "text">Welcome to BioTork <br/>
             <div className = "text2">Evolving beyond the imagination</div></p>
         </div>
-        <div class="company-announcement">
-            <container>
+        <div>
 		<p><strong>Company Announcement:</strong></p>
         <p>October 30th, 2019 – Hans van der Sluijs Joins BioTork as Chief Development Officer – <strong><a title="Hans van der Sluijs joins BioTork as CDO" href="https://biotork.files.wordpress.com/2019/10/hans-van-der-sluijs-joins-biotork-as-cdo.pdf"><span style={{ color: '#008000'}}>News Release</span></a></strong></p>
         <p><strong>Company Announcement:<br></br>
@@ -20,7 +19,7 @@ function Home() {
 December 6th, 2016-&nbsp;BioTork unveils its improvements on yeasts for the whiskey industry. BioTork’s strains can produce about 20% more ethanol with 1-2 days shorter fermentation time than standard yeast strains.<span style={{ color: '#008000'}}> <strong><strong>–&nbsp;<a style={{ color: '#008000'}} title="biotork-whiskey-yeast" href="https://biotork.files.wordpress.com/2016/10/biotork-whiskey-yeast.pdf">News Release</a></strong></strong></span></p>
 <p><strong>Company Announcement:</strong><br></br>
 October 19th, 2016- BioTork is excited to announce that we have been awarded funding from the Florida Institute for the Commercialization of Public Research, a non-profit organization funded by the state of Florida. The Institute hopes to support us in our endeavors to develop the cost-efficient, sustainable conversion of low-value products into chemical commodities.<span style={{ color: '#008000'}}> <strong><strong>– <a style={{ color: '#008000'}} title="biotork-fl-institute-10-19-16" href="https://biotork.files.wordpress.com/2016/10/biotork-fl-institute-10-19-16.pdf">News Release</a></strong></strong></span></p>
-        </container>
+
         </div>
         </>
     );
