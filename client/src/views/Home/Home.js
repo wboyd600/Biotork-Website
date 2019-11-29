@@ -4,6 +4,9 @@ import './Home.css';
 function Home() {
     return (
         <>
+
+        <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet"></link>
+
         <div className="bg">
             <p className = "text">Welcome to BioTork <br/>
             <div className = "text2">Evolving beyond the imagination</div></p>

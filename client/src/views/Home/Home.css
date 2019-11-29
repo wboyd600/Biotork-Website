@@ -19,12 +19,13 @@
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    font-family: 'Roboto', sans-serif;
-    color: black;
+    font-family: 'Lato', sans-serif;
+    color: rgb(28, 43, 23);
     font-size: 4.5vw;
 }
 
 .text2{
+    font-family: 'Lato', sans-serif;
     font-size: 2.25vw;
 }
 
