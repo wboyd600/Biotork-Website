@@ -9,6 +9,7 @@
     background-color: black;
     background-blend-mode: screen;
     }
+
 .App {
     text-align: center;
 }
@@ -47,7 +48,7 @@
 .App-link {
     color: #09d3ac;
 }
-
+/* Gives the company announcements a more centered look without centering the text */ 
 .company-announcement {
     padding-top: 30px;
     padding-bottom: 30px;
