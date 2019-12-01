@@ -1,7 +1,7 @@
 import React from 'react';
 import request from 'superagent';
 import './Footer.css';
-import logo from '../../assets/BioTork_High_Definition_Logo.png';
+import logo from '../../assets/biotork-logo.png';
 
 class Footer extends React.Component {
 
