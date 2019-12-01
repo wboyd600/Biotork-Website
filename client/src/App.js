@@ -1,6 +1,5 @@
 import React from 'react';
 import { Route, Switch, Redirect  } from 'react-router-dom';
-import Timeline from "./components/Timeline/Timeline"
 import Home from "./views/Home/Home"
 import Executives from "./views/Executives/Executives"
 
@@ -32,7 +31,6 @@ const App = () => {
         <Route exact path="/Admin/PressReleases" component={PR} />
         
         <Route exact path="/Projects" component={Projects} />
-        <Route exact path="/Timeline" component={Timeline} />
 
         <Route component={NotFound}/>
       </Switch>
