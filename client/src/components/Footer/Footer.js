@@ -1,6 +1,7 @@
 import React from 'react';
 import request from 'superagent';
 import './Footer.css';
+import logo from '../../assets/biotork-logo.png';
 
 class Footer extends React.Component {
 
@@ -36,30 +37,20 @@ class Footer extends React.Component {
     render () {
         return (
             <>
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
-    
-            <div class="flex-container">
-            <div class="footer">
-                <div class="footer-content">
-                    <div class="footer-section about">
-                        <h1><span>BioTork</span></h1>
-                        <p>
-                            Here at BioTork, our mission is to improve world 
-                            sustainability and the environmental conditions 
-                            of our planet for generations to come.
-                        </p>
-                        <div class="contact">
-                            <span><i class="fa fa-phone"></i> &nbsp;123-456-789</span>
-                            <span><i class="fa fa-envelope"></i> &nbsp;test@BioTork.com</span>
-                        </div>
-                        <div class="socials">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-instagram"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-youtube"></i></a>
-                        </div>
-                    </div>
-                    <div class="footer-section links">
+            <head>
+	<meta charset="utf-8"></meta>
+	<meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+	<meta name="keywords" content="footer, address, phone, icons" ></meta>
+	
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"></link>
+ 
+</head>
+	<body>
+        <footer class="footer-mobile-responsive">
+ 
+			<div class="footer-left">
+          <img src={ logo }></img>
+				<div class="footer-quick-links">
                         <h2>Quick Links</h2>
                         <ul>
                             <a href="#"><li>Home</li></a>
@@ -69,20 +60,47 @@ class Footer extends React.Component {
                             <a href="#"><li>Press Releases</li></a>
                         </ul>
                     </div>
-                    <div class="footer-section contact-form">
-                        <h2>Stay Connected</h2>
+ 
+				<p class="footer-company-text">© 2019 BioTork</p>
+			</div>
+ 
+			<div class="footer-center">
+				<div>
+					<i class="fa fa-map-marker"></i>
+					  <p><span>2153 SE Hawthorned Rd
+						 #130</span>
+						Gainesville, FL 32641</p>
+				</div>
+ 
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>352-505-8611</p>
+				</div>
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="mailto:info@biotork.com">info@biotork.com</a></p>
+				</div>
+			</div>
+			<div class="footer-right">
+				<p class="footer-company-about">
+                    <h3>About BioTork</h3>
+					Here at BioTork, our mission is to improve world 
+                        sustainability and the environmental conditions 
+                        of our planet for generations to come.
+                        <span>Stay Connected</span></p>
                         <input type="text" placeholder="Enter Email..." ref="emailField" value={this.state.value} onChange = {this.emailUpdate}></input>
                         <button variant="secondary" size="sm" onClick={() => {this.refs.emailField.value=""; this.addEmail()}}>Sign Up</button>
-     
-                    </div>
-                </div>
-                <div class="footer-bottom">
-                    &copy; BioTork 2019 | Designed By Group 5B
-                </div>
-    
-            </div>
-            </div>
-            </>
+				<div class="footer-icons">
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+					<a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="#"><i class="fa fa-instagram"></i></a>
+					<a href="#"><i class="fa fa-youtube"></i></a>
+				</div>
+			</div>
+		</footer>
+	</body>
+    </>
         );
     }
 }
