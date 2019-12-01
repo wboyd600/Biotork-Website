@@ -16,6 +16,13 @@ module.exports.init = () => {
     mongoose.set('useCreateIndex', true);
     mongoose.set('useFindAndModify', false);
 
+    var db=mongoose.connection; 
+    db.on('error', console.log.bind(console, "connection error")); 
+    db.once('open', function(callback){ 
+        console.log("connection succeeded"); 
+    }) 
+
+
     // initialize app
     const app = express();
 
@@ -28,6 +35,15 @@ module.exports.init = () => {
     // add a router
     app.use('/api/example', exampleRouter);
 
+    const Schema = mongoose.Schema;
+    // create a schema
+    const messageSchema = new Schema({
+        email: String,
+    });
+    const Message = mongoose.model('Message', messageSchema);
+    module.exports = Message;
+
+
     if (process.env.NODE_ENV === 'production') {
         // Serve any static files
         app.use(express.static(path.join(__dirname, '../../client/build')));
@@ -37,6 +53,15 @@ module.exports.init = () => {
             res.sendFile(path.join(__dirname, '../../client/build', 'index.html'));
         });
     }
+
+    app.post('/post-email', function(req,res){ 
+        console.log(req.body.email);
+        const doc = new Message({ email: req.body.email })
+        doc.save(); 
+              
+        return res.redirect('index.html'); 
+    }) 
+    
 
     return app
 }
