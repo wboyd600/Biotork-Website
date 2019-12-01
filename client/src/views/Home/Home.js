@@ -12,6 +12,7 @@ function Home() {
         <>
 
         <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet"></link>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
 
         /* Hero Image and covering text - Using google fonts for the custome text */
         <div className="bg">

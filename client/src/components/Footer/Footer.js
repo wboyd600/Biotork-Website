@@ -42,7 +42,7 @@ class Footer extends React.Component {
 	<meta name="viewport" content="width=device-width, initial-scale=1"></meta>
 	<meta name="keywords" content="footer, address, phone, icons" ></meta>
 	
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"></link>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
  
 </head>
 	<body>
