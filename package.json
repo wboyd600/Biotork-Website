@@ -44,7 +44,8 @@
     "popper.js": "^1.16.0",
     "react-bootstrap": "^1.0.0-beta.14",
     "should": "^13.2.3",
-    "supertest": "^4.0.2"
+    "supertest": "^4.0.2",
+    "fontAwesome": "^4.7.0"
   }
 }
 
