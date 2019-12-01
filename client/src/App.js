@@ -27,8 +27,6 @@ import OmegaOils from "./views/Projects/OmegaOils"
 import ConsumerAlcohol from "./views/Projects/ConsumerAlcohol"
 import Phytase from './views/Projects/Phytase';
 
-
-import Timeline from "./components/Timeline/Timeline"
 const App = () => {
   return (
     <div>
