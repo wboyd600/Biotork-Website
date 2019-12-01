@@ -29,6 +29,7 @@ exports.update = function (req, res) {
     .then(foundPress => {
       foundPress.title = req.body.title;
       foundPress.text = req.body.text;
+      foundPress.pdf = req.body.pdf;
       foundPress.expireDate = req.body.expireDate;
       foundPress.save()
         .then(updatedPress => res.json(updatedPress))

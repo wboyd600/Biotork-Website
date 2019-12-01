@@ -6,6 +6,7 @@ var mongoose = require('mongoose'),
 var PressSchema = new Schema({
     title:{type: String, required: true}, //headline of special deal
     text: String, //more detailed information about special, including vendor
+    pdf:String,
     createdDate: Date,
     updatedDate: Date
 });
