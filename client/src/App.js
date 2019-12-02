@@ -28,7 +28,7 @@ import ConsumerAlcohol from "./views/Projects/ConsumerAlcohol"
 import Phytase from './views/Projects/Phytase';
 
 
-import Timeline from "./components/Timeline/Timeline"
+//import Timeline from "./components/Timeline/Timeline"
 const App = () => {
   return (
     <div>
@@ -62,7 +62,7 @@ const App = () => {
         <Route exact path="/Projects/Phytase" component={Phytase} />
 
 
-        <Route exact path="/Timeline" component={Timeline} />
+      {/*  <Route exact path="/Timeline" component={Timeline} />*/}
 
         <Route component={NotFound}/>
       </Switch>
