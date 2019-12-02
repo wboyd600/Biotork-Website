@@ -9,6 +9,7 @@
     background-color: black;
     background-blend-mode: screen;
     }
+
 .App {
     text-align: center;
 }
@@ -19,12 +20,13 @@
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    font-family: 'Roboto', sans-serif;
-    color: black;
+    font-family: 'Lato', sans-serif;
+    color: rgb(28, 43, 23);
     font-size: 4.5vw;
 }
 
 .text2{
+    font-family: 'Lato', sans-serif;
     font-size: 2.25vw;
 }
 
@@ -45,4 +47,10 @@
 
 .App-link {
     color: #09d3ac;
+}
+/* Gives the company announcements a more centered look without centering the text */ 
+.company-announcement {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 15vw;
 }
