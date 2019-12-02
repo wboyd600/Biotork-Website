@@ -11,13 +11,18 @@ var PR_controller = require("../controllers/PressReleases.js"),
 router
     .route("/")
     .get(PR_controller.getNewOrOld, PR_controller.list)
-    .post(PR_controller.create);
+    .post(PR_controller.create)
+    .delete(PR_controller.delete);
+
+    
+  
+// router
+//     .route("/:_title")
 
 router
   .route("/:_id")
   .get(PR_controller.read)
-  .put(PR_controller.update)
-  .delete(PR_controller.delete);
+  .put(PR_controller.update);
 
 
 module.exports = router;

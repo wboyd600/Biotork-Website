@@ -40,7 +40,7 @@ exports.update = function (req, res) {
 
 /* Delete a special */
 exports.delete = function (req, res) {
-  PR.findByIdAndRemove(req.params)
+  PR.deleteOne(req.body)
     .then(deletedPress => res.json(deletedPress))
     .catch(err => res.status(400).send(err));
 };

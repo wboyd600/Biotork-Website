@@ -30,7 +30,6 @@ class PR extends React.Component {
                 </Fragment>
             );
         });
-        console.log(this.state.pressReleases);
         return text;
     }
 
