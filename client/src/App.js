@@ -8,6 +8,7 @@ import NotFound from "./views/NotFound"
 import Header from "./components/Header/Header"
 
 import Technology from "./views/Technology/Technology"
+import Contact from "./views/Contact/Contact";
 import Carbon from "./views/Technology/Carbon"
 import Culture from "./views/Technology/Culture"
 import GrowthRate from "./views/Technology/GrowthRate"
@@ -28,15 +29,12 @@ import ConsumerAlcohol from "./views/Projects/ConsumerAlcohol"
 import Phytase from './views/Projects/Phytase';
 import AboutUs from './views/AboutUs/AboutUs';
 
-
-import Timeline from "./components/Timeline/Timeline"
 const App = () => {
   return (
     <div>
       <Header />
 
       <Switch>
-        <Route exact path="/Timeline" component={Timeline} />
         <Route exact path="/Home" component={Home} />
         <Route exact path="/Executives" component = {Executives} />
         <Route exact path="/">
@@ -60,6 +58,7 @@ const App = () => {
         
         <Route exact path="/Projects" component={Projects} />
 
+        <Route exact path="/Contact" component = {Contact} />
         <Route exact path="/Projects/Fuel-Ethanol" component={FuelEthanol} />
         <Route exact path="/Projects/Omega-Oils" component={OmegaOils} />
         <Route exact path="/Projects/Consumer-Alcohol" component={ConsumerAlcohol} />
@@ -67,7 +66,6 @@ const App = () => {
 
 
 
-        <Route exact path="/Timeline" component={Timeline} />
 
         <Route component={NotFound}/>
       </Switch>
