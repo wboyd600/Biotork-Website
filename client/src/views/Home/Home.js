@@ -13,7 +13,7 @@ function Home() {
 
             <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet"></link>
 
-            /* Hero Image and covering text - Using google fonts for the custome text */
+            {/* Hero Image and covering text - Using google fonts for the custome text */}
             <div className="bg">
                 <p className="text">Welcome to BioTork <br />
                     <div className="text2">Evolving beyond the imagination</div></p>
