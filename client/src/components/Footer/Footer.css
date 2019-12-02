@@ -2,30 +2,6 @@ body{
 	font:16px/1.6 Arial,  sans-serif;
 }
 
-/* Elements that make the footer mobile responsive */
-@media (max-width: 880px) {
-
-	.footer-mobile-responsive .footer-left,
-	.footer-mobile-responsive .footer-center,
-	.footer-mobile-responsive .footer-right{
-		display: block;
-		width: 100%;
-		margin-bottom: 40px;
-		text-align: center;
-	}
-
-	.footer-mobile-responsive .footer-center i{
-		margin-left: 0;
-	}
-
-}
-
-/* Keeps footer at the bottom of the page */
-@media (max-height:800px){
-	footer { position: static; }
-	header { padding-top:40px; }
-}
-
 .footer-mobile-responsive{
 	background-color: #343a40;
 	box-sizing: border-box;
@@ -174,5 +150,29 @@ body{
 .footer-mobile-responsive .footer-center p a{
 	color:  #325d3c;
 	text-decoration: none;;
+}
+
+/* Elements that make the footer mobile responsive */
+@media (max-width: 880px) {
+
+	.footer-mobile-responsive .footer-left,
+	.footer-mobile-responsive .footer-center,
+	.footer-mobile-responsive .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-mobile-responsive .footer-center i{
+		margin-left: 0;
+	}
+
+}
+
+/* Keeps footer at the bottom of the page */
+@media (max-height:800px){
+	footer { position: static; }
+	header { padding-top:40px; }
 }
 

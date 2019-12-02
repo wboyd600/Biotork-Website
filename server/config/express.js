@@ -3,8 +3,11 @@ const path = require('path'),
     mongoose = require('mongoose'),
     morgan = require('morgan'),
     bodyParser = require('body-parser'),
-    exampleRouter = require('../routes/examples.server.routes');
+    pressReleasesRouter = require('../routes/PressReleases');
 
+    cookieParser = require('cookie-parser'),
+    exampleRouter = require('../routes/examples.server.routes'),
+    {sendEmail} = require('../mail/mail');
 module.exports.init = () => {
     /* 
         connect to database
@@ -29,11 +32,18 @@ module.exports.init = () => {
     // enable request logging for development debugging
     app.use(morgan('dev'));
 
+    app.use(bodyParser.urlencoded({extended: true}));
+
     // body parsing middleware
     app.use(bodyParser.json());
-
+    app.use(cookieParser());
+    app.post("/api/sendMail",(req,res) => {
+        console.log(req.body)
+        sendEmail(req.body.firstName,req.body.lastName,req.body.email,req.body.subject,req.body.message)
+    })
+    
     // add a router
-    app.use('/api/example', exampleRouter);
+    app.use('/api/PressReleases', pressReleasesRouter);
 
     const Schema = mongoose.Schema;
     // create a schema
@@ -53,7 +63,11 @@ module.exports.init = () => {
             res.sendFile(path.join(__dirname, '../../client/build', 'index.html'));
         });
     }
-
+    app.post("/api/sendMail",(req,res) => {
+        console.log(req.body)
+    
+        //sendEmail(req.body.email,req.body.name,"hello")
+    })
     app.post('/post-email', function(req,res){ 
         console.log(req.body.email);
         const doc = new Message({ email: req.body.email })

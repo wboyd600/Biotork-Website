@@ -54,10 +54,10 @@ class Footer extends React.Component {
                         <h2>Quick Links</h2>
                         <ul>
                             <a href="#"><li>Home</li></a>
-                            <a href="#"><li>About Us</li></a>
-                            <a href="#"><li>Technology</li></a>
-                            <a href="#"><li>Company Timeline</li></a>
-                            <a href="#"><li>Press Releases</li></a>
+                            <a href="/about"><li>About Us</li></a>
+                            <a href="/technology"><li>Technology</li></a>
+                            <a href="/timeline"><li>Company Timeline</li></a>
+                            <a href="/projects"><li>Projects</li></a>
                         </ul>
                     </div>
  
@@ -91,9 +91,9 @@ class Footer extends React.Component {
                         <input type="text" placeholder="Enter Email..." ref="emailField" value={this.state.value} onChange = {this.emailUpdate}></input>
                         <button variant="secondary" size="sm" onClick={() => {this.refs.emailField.value=""; this.addEmail()}}>Sign Up</button>
 				<div class="footer-icons">
-                    <a href="#"><i class="fa fa-linkedin"></i></a>
-					<a href="#"><i class="fa fa-facebook"></i></a>
-					<a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/company/biotork/"><i class="fa fa-linkedin"></i></a>
+					<a href="https://www.facebook.com/biotork/"><i class="fa fa-facebook"></i></a>
+					<a href="https://twitter.com/biotork"><i class="fa fa-twitter"></i></a>
 					<a href="#"><i class="fa fa-instagram"></i></a>
 					<a href="#"><i class="fa fa-youtube"></i></a>
 				</div>

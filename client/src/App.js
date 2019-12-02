@@ -1,13 +1,13 @@
 import React from 'react';
 import { Route, Switch, Redirect  } from 'react-router-dom';
-
-import Home from "./views/Home/Home"
+import Home from "./components/Home/Home"
 import Executives from "./views/Executives/Executives"
 
 import NotFound from "./views/NotFound"
 import Header from "./components/Header/Header"
 
 import Technology from "./views/Technology/Technology"
+import Contact from "./views/Contact/Contact";
 import Carbon from "./views/Technology/Carbon"
 import Culture from "./views/Technology/Culture"
 import GrowthRate from "./views/Technology/GrowthRate"
@@ -29,15 +29,18 @@ import Phytase from './views/Projects/Phytase';
 import AboutUs from './views/AboutUs/AboutUs';
 import AdminSignIn from './views/AdminSignIn/AdminSignIn';
 
+import PRAdmin from "./components/PRAdmin/PRAdmin"
 
-import Timeline from "./components/Timeline/Timeline"
+
+
+
+//import Timeline from "./components/Timeline/Timeline"
 const App = () => {
   return (
     <div>
       <Header />
 
       <Switch>
-        <Route exact path="/Timeline" component={Timeline} />
         <Route exact path="/Home" component={Home} />
         <Route exact path="/Executives" component = {Executives} />
         <Route exact path="/">
@@ -47,6 +50,8 @@ const App = () => {
         <Route exact path="/Admin" component={AdminSignIn} />
         
         <Route exact path="/Technology" component={Technology} />
+        <Route exact path="/Admin/PressReleases" component={PRAdmin} />
+        
 
         <Route exact path="/Technology/Carbon" component = {Carbon} />
         <Route exact path="/Technology/Culture" component = {Culture} />
@@ -62,14 +67,15 @@ const App = () => {
         
         <Route exact path="/Projects" component={Projects} />
 
+        <Route exact path="/Contact" component = {Contact} />
         <Route exact path="/Projects/Fuel-Ethanol" component={FuelEthanol} />
         <Route exact path="/Projects/Omega-Oils" component={OmegaOils} />
         <Route exact path="/Projects/Consumer-Alcohol" component={ConsumerAlcohol} />
         <Route exact path="/Projects/Phytase" component={Phytase} />
 
 
+      {/*  <Route exact path="/Timeline" component={Timeline} />*/}
 
-        <Route exact path="/Timeline" component={Timeline} />
 
         <Route component={NotFound}/>
       </Switch>
