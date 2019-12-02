@@ -39,7 +39,7 @@ function Home() {
             <div class="flex-container">
             <div class="column">
                 <div class="card">
-                <img class="card-img-top" src="client\src\views\Executives\HansHeadshot.jpg" alt="Mark"></img>
+                <img class="card-img-top" src={require('./MarkBioTork.png')} alt="Mark"></img>
                 <div class="container">
                     <h2>Mr. Mark DeAndrea</h2>
                     <p class="title">President & Chief Strategy Officer</p>
@@ -51,7 +51,7 @@ function Home() {
 
             <div class="column">
                 <div class="card">
-                <img class="card-img-top" src="./HansHeadshot.jpg" alt="Hans"></img>
+                <img class="card-img-top" src={require("./HansHeadshot.jpg")} alt="Hans"></img>
                 <div class="container">
                     <h2>Mr. Hans van der Slujis</h2>
                     <p class="title">Chief Business Development Officer</p>
@@ -63,7 +63,7 @@ function Home() {
 
             <div class="column">
                 <div class="card">
-                <img class="card-img-top" src="https://image.freepik.com/free-photo/happy-african-american-professional-manager-smiling-looking-camera-headshot-portrait_1163-5134.jpg" alt="John"></img>
+                <img class="card-img-top" src={require("./TomLyons.jpg")} alt="John"></img>
                 <div class="container">
                     <h2>Dr. Tom Lyons</h2>
                     <p class="title">Chief Science Officer</p>
@@ -80,7 +80,7 @@ function Home() {
             <div class="flex-container">
                 <div class="column">
                     <div class="card">
-                    <img class="card-img-top" src="https://image.freepik.com/free-photo/happy-african-american-professional-manager-smiling-looking-camera-headshot-portrait_1163-5134.jpg" alt="John"></img>
+                    <img class="card-img-top" src={require("./MarcPenicaud.jpg")} alt="John"></img>
                 <div class="container">
                     <h2>Mr. Marc Penicaud</h2>
                     <p class="title">CEO & co-founder</p>

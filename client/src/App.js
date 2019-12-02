@@ -27,6 +27,7 @@ import OmegaOils from "./views/Projects/OmegaOils"
 import ConsumerAlcohol from "./views/Projects/ConsumerAlcohol"
 import Phytase from './views/Projects/Phytase';
 import AboutUs from './views/AboutUs/AboutUs';
+import AdminSignIn from './views/AdminSignIn/AdminSignIn';
 
 
 import Timeline from "./components/Timeline/Timeline"
@@ -43,6 +44,7 @@ const App = () => {
           <Redirect to="/Home" />
         </Route>
         <Route exact path="/About" component={AboutUs} />
+        <Route exact path="/Admin" component={AdminSignIn} />
         
         <Route exact path="/Technology" component={Technology} />
 

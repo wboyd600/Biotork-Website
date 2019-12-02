@@ -1,6 +1,6 @@
 import React from 'react';
 import './AboutUs.css';
-import Executives from "../Executives/Executives"
+
 
 function AboutUs() {
     return (
@@ -45,7 +45,6 @@ function AboutUs() {
             </div>
         </div>
 
-        <Executives></Executives>
     </div>
 
 
