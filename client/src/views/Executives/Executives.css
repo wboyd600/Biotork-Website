@@ -1,6 +1,3 @@
-
-
-
 .App {
     text-align: center;
 }
@@ -190,10 +187,6 @@ body {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
-}
-
-.container:hover .social-connect {
-  opacity: 1;
 }
 
 .hero-section {

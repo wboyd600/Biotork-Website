@@ -1,0 +1,14 @@
+.about-hero-section {
+    background: url("../../assets/tubes.jpg") 50% no-repeat;
+    background-size: cover;
+    height: 30vh;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  body{
+      padding-top: 70px;
+  }
