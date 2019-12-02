@@ -3,6 +3,8 @@ const path = require('path'),
     mongoose = require('mongoose'),
     morgan = require('morgan'),
     bodyParser = require('body-parser'),
+    pressReleasesRouter = require('../routes/PressReleases');
+
     cookieParser = require('cookie-parser'),
     exampleRouter = require('../routes/examples.server.routes'),
     {sendEmail} = require('../mail/mail');
@@ -41,7 +43,7 @@ module.exports.init = () => {
     })
     
     // add a router
-    app.use('/api/example', exampleRouter);
+    app.use('/api/PressReleases', pressReleasesRouter);
 
     const Schema = mongoose.Schema;
     // create a schema

@@ -1,7 +1,6 @@
 import React from 'react';
 import { Route, Switch, Redirect  } from 'react-router-dom';
-
-import Home from "./views/Home/Home"
+import Home from "./components/Home/Home"
 import Executives from "./views/Executives/Executives"
 
 import NotFound from "./views/NotFound"
@@ -29,6 +28,11 @@ import ConsumerAlcohol from "./views/Projects/ConsumerAlcohol"
 import Phytase from './views/Projects/Phytase';
 import AboutUs from './views/AboutUs/AboutUs';
 
+import PRAdmin from "./components/PRAdmin/PRAdmin"
+
+
+
+
 const App = () => {
   return (
     <div>
@@ -43,6 +47,8 @@ const App = () => {
         <Route exact path="/About" component={AboutUs} />
         
         <Route exact path="/Technology" component={Technology} />
+        <Route exact path="/Admin/PressReleases" component={PRAdmin} />
+        
 
         <Route exact path="/Technology/Carbon" component = {Carbon} />
         <Route exact path="/Technology/Culture" component = {Culture} />
