@@ -62,18 +62,6 @@ const App = () => {
         <Route exact path="/Technology/FAQ" component = {FAQ} />
         <Route exact path="/Technology/Selection" component = {Selection} />
 
-        
-        <Route exact path="/Projects" component={Projects} />
-
-        <Route exact path="/Contact" component = {Contact} />
-        <Route exact path="/Projects/Fuel-Ethanol" component={FuelEthanol} />
-        <Route exact path="/Projects/Omega-Oils" component={OmegaOils} />
-        <Route exact path="/Projects/Consumer-Alcohol" component={ConsumerAlcohol} />
-        <Route exact path="/Projects/Phytase" component={Phytase} />
-
-
-      {/*  <Route exact path="/Timeline" component={Timeline} />*/}
-
 
         <Route component={NotFound}/>
       </Switch>
