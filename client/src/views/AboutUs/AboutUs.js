@@ -10,7 +10,7 @@ function AboutUs() {
                 <div class="about-hero-section"> 
                     <div class="hero-section-text"> 
                         <div class="heading-title text-center">
-                            <h1> About Us</h1>
+                            <h1>About Us</h1>
                         </div>
                     </div>
                 </div>
@@ -19,18 +19,24 @@ function AboutUs() {
 
         <div>
             <p></p>
-            <p class = "heading-title h1 text-center"> A brief history of BioTork</p>
-            <p class = "heading-detail"> Founded in 2008 and based in Gainesville, FL, BioTork has become a world leader in the evolutionary optimization of fermentation processes. Through access to a unique proprietary technology, we use natural selection to improve the microorganisms that carry out fermentation.</p>
+            <h1 class="heading-titl text-center">
+                    A brief history of BioTork
+                </h1>
+
+                <div class="heading-detail text-center">
+                    <p class="center-txt ">Founded in 2008 and based in Gainesville, FL, BioTork has become a world leader in the evolutionary optimization of fermentation processes. Through access to a unique proprietary technology, we use natural selection to improve the microorganisms that carry out fermentation.</p>
+                </div>
             <p> </p>
         </div>
         
 
         <div>
-            <p class = "heading-title h1 text-center"> Misson statements  </p>
-            <p>• Here at BioTork, our mission is to improve world sustainability and the environmental conditions of our planet for generations to come.</p>
+            <h1 class = "heading-title text-center"> Misson statements  </h1>
+            
         </div>
-
+        <div class="heading-detail text-center">
         <div>
+        <p>• Here at BioTork, our mission is to improve world sustainability and the environmental conditions of our planet for generations to come.</p>
             <p>• Recycling waste, sustainable agriculture and renewable energy are threads that run through all of the projects we undertake. By improving biological processes, we convert low-value agricultural by-products to commodities such as renewable energy and high value supplements.</p>
         </div>
 
@@ -45,6 +51,7 @@ function AboutUs() {
         <h2 class = "heading-title h3">
             <Link className="Exec-link" to= 'Executives'> Read about our executives here </Link>
         </h2>
+        </div>
     </>
     );
 }
