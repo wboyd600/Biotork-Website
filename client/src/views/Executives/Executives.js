@@ -39,10 +39,10 @@ function Home() {
             <div class="flex-container">
             <div class="column">
                 <div class="card">
-                <img class="card-img-top" src="https://image.freepik.com/free-photo/portrait-middle-aged-businessman-posing-looking-camera_1163-4800.jpg" alt="Jane"></img>
+                <img class="card-img-top" src="client\src\views\Executives\HansHeadshot.jpg" alt="Mark"></img>
                 <div class="container">
-                    <h2>James Bond</h2>
-                    <p class="title">CEO &amp; Founder</p>
+                    <h2>Mr. Mark DeAndrea</h2>
+                    <p class="title">President & Chief Strategy Officer</p>
                     <p>lorem ipsum ipsum lorem.</p>
                     <p>CEO@test.com</p>
                 </div>
@@ -51,10 +51,10 @@ function Home() {
 
             <div class="column">
                 <div class="card">
-                <img class="card-img-top" src="https://image.freepik.com/free-photo/confident-entrepreneur-satisfied-with-own-success_1163-5474.jpg" alt="Mike"></img>
+                <img class="card-img-top" src="./HansHeadshot.jpg" alt="Hans"></img>
                 <div class="container">
-                    <h2>Mark Dobbins</h2>
-                    <p class="title">Lead Scientist</p>
+                    <h2>Mr. Hans van der Slujis</h2>
+                    <p class="title">Chief Business Development Officer</p>
                     <p>lorem ipsum ipsum lorem.</p>
                     <p>science@test.com</p>
                 </div>
@@ -65,8 +65,8 @@ function Home() {
                 <div class="card">
                 <img class="card-img-top" src="https://image.freepik.com/free-photo/happy-african-american-professional-manager-smiling-looking-camera-headshot-portrait_1163-5134.jpg" alt="John"></img>
                 <div class="container">
-                    <h2>John Doe</h2>
-                    <p class="title">Senior Engineer</p>
+                    <h2>Dr. Tom Lyons</h2>
+                    <p class="title">Chief Science Officer</p>
                     <p>lorem ipsum ipsum lorem.</p>
                     <p>engineer@test.com</p>
                 </div>
@@ -75,6 +75,36 @@ function Home() {
             </div>
         </div>
 
+
+        <div class="row">
+            <div class="flex-container">
+                <div class="column">
+                    <div class="card">
+                    <img class="card-img-top" src="https://image.freepik.com/free-photo/happy-african-american-professional-manager-smiling-looking-camera-headshot-portrait_1163-5134.jpg" alt="John"></img>
+                <div class="container">
+                    <h2>Mr. Marc Penicaud</h2>
+                    <p class="title">CEO & co-founder</p>
+                    <p>lorem ipsum ipsum lorem.</p>
+                    <p>engineer@test.com</p>
+                </div>
+                </div>
+                </div>
+
+                <div class="column">
+                    <div class="card">
+                    <img class="card-img-top" src="https://image.freepik.com/free-photo/happy-african-american-professional-manager-smiling-looking-camera-headshot-portrait_1163-5134.jpg" alt="John"></img>
+                <div class="container">
+                    <h2>Mr. Eudes de Crecy</h2>
+                    <p class="title">co-founder</p>
+                    <p>lorem ipsum ipsum lorem.</p>
+                    <p>engineer@test.com</p>
+                </div>
+                </div>
+
+                </div>
+
+            </div>
+        </div>
         <div class="cotainer">
             <div class="row">
                 <div class="flex-container">

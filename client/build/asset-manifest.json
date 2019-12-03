@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6ef9a6c7.chunk.css",
+    "main.js": "/static/js/main.6d8fa754.chunk.js",
+    "main.js.map": "/static/js/main.6d8fa754.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.26c742a8.js",
+    "runtime-main.js.map": "/static/js/runtime-main.26c742a8.js.map",
+    "static/css/2.0624914a.chunk.css": "/static/css/2.0624914a.chunk.css",
+    "static/js/2.dba86016.chunk.js": "/static/js/2.dba86016.chunk.js",
+    "static/js/2.dba86016.chunk.js.map": "/static/js/2.dba86016.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.17239882527728c948c9a4c291df310e.js": "/precache-manifest.17239882527728c948c9a4c291df310e.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.0624914a.chunk.css.map": "/static/css/2.0624914a.chunk.css.map",
+    "static/css/main.6ef9a6c7.chunk.css.map": "/static/css/main.6ef9a6c7.chunk.css.map",
+    "static/media/BioTork_High_Definition_Logo.png": "/static/media/BioTork_High_Definition_Logo.b657eba0.png",
+    "static/media/Phytase-Photo.jpg": "/static/media/Phytase-Photo.716fad05.jpg",
+    "static/media/Projects.css": "/static/media/Projects_Background.88c1be54.png",
+    "static/media/distillery-barrels.jpg": "/static/media/distillery-barrels.879052fb.jpg",
+    "static/media/iowa.jpg": "/static/media/iowa.8ed35f1d.jpg",
+    "static/media/underwater.jpg": "/static/media/underwater.98aaf28c.jpg",
+    "static/media/Home.css": "/static/media/wheat.6c6b8425.jpg"
+  }
+}

@@ -21,7 +21,7 @@ text-transform: uppercase;
 
 /* Four columns side by side */
 .column {
-  width: 20%;
+  width: 25%;
   margin-bottom: 0px;
   margin-top: 0px; 
   padding: 0 8px;
@@ -165,11 +165,5 @@ justify-content: center;
   align-items: center;
   justify-content: center;
 }
-
-ul.a {
-  list-style-type: square;
-}
-
-
 
 

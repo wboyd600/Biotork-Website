@@ -1,12 +1,13 @@
 import React from 'react';
 import { Route, Switch, Redirect  } from 'react-router-dom';
-import Home from "./views/Home/Home"
+import Home from "./components/Home/Home"
 import Executives from "./views/Executives/Executives"
 
 import NotFound from "./views/NotFound"
 import Header from "./components/Header/Header"
 
 import Technology from "./views/Technology/Technology"
+import Contact from "./views/Contact/Contact";
 import Carbon from "./views/Technology/Carbon"
 import Culture from "./views/Technology/Culture"
 import GrowthRate from "./views/Technology/GrowthRate"
@@ -25,8 +26,14 @@ import FuelEthanol from "./views/Projects/FuelEthanol"
 import OmegaOils from "./views/Projects/OmegaOils"
 import ConsumerAlcohol from "./views/Projects/ConsumerAlcohol"
 import Phytase from './views/Projects/Phytase';
+import AboutUs from './views/AboutUs/AboutUs';
+
+import PRAdmin from "./components/PRAdmin/PRAdmin"
 
 
+
+
+//import Timeline from "./components/Timeline/Timeline"
 const App = () => {
   return (
     <div>
@@ -38,14 +45,11 @@ const App = () => {
         <Route exact path="/">
           <Redirect to="/Home" />
         </Route>
+        <Route exact path="/About" component={AboutUs} />
         
         <Route exact path="/Technology" component={Technology} />
+        <Route exact path="/Admin/PressReleases" component={PRAdmin} />
         
-        <Route exact path="/Projects" component={Projects} />
-        <Route exact path="/Projects/Fuel-Ethanol" component={FuelEthanol} />
-        <Route exact path="/Projects/Omega-Oils" component={OmegaOils} />
-        <Route exact path="/Projects/Consumer-Alcohol" component={ConsumerAlcohol} />
-        <Route exact path="/Projects/Phytase" component={Phytase} />
 
         <Route exact path="/Technology/Carbon" component = {Carbon} />
         <Route exact path="/Technology/Culture" component = {Culture} />

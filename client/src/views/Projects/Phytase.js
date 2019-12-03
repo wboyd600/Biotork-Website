@@ -18,8 +18,8 @@ function Phytase() {
 
         <div class="container">
             <div class="row">
-                <div class="heading-detail text-center">
-                    <p class="center-txt ">Our work focuses on improving microorganisms for existing fermentation processes, as well as creating novel pathways to use new substrates such as waste to make high value commodities.
+               
+                    <p>Our work focuses on improving microorganisms for existing fermentation processes, as well as creating novel pathways to use new substrates such as waste to make high value commodities.
                     <br /> We are particularly devoted to projects that target sustainability.</p>
                 </div>
 
@@ -36,7 +36,7 @@ function Phytase() {
                     <p>A low-cost source of heat-tolerant phytase enzymes that are unaffected by processing conditions, as BioTork is working to create, will have a huge beneficial impact on the production of animal feed, and consequently, our planet.</p>
                 </div>
             </div>
-         </div>
+         
             
 </>
     );

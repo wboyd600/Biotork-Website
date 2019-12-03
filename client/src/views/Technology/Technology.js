@@ -38,10 +38,7 @@ function Technology() {
                 <div class="heading-detail">
                     <p class="center-txt ">BioTork is the world leader in the use of evolutionary optimization to develop robust cellular factories capable of converting low value carbon sources such as biomass and agro-industrial by-products into high-value bio-based chemical commodities. Instead of adapting the production process to the metabolic limitations of the microorganisms, we adapt the microorganisms to perform optimally in the simplest and most economical production process.</p>
                 </div>
-
-                <div class = "heading-detail text-center">
-                    <p class = "center-txt"> Click on a topic to learn more. </p>
-                </div>
+                <p> </p>
             </div>
         </div>
 
@@ -152,7 +149,7 @@ function Technology() {
                     </a>
                 </div>           
             </div>
-        </div>        
+        </div>  
     </>
     );
 }
