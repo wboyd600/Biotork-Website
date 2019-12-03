@@ -28,8 +28,8 @@ const getEmailData = (firstName,lastName,email,subject,message) =>{
 }
 const mailgunAuth = {
     auth: {
-        api_key: require("../config/config").auth.api_key,
-        domain: require("../config/config").auth.domain
+       // api_key: require("../config/config").auth.api_key,
+        //domain: require("../config/config").auth.domain
       } 
   } 
 const sendEmail = (firstName,lastName,email,subject,message) => {

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Component, useState} from 'react';
 import { Route, Switch, Redirect  } from 'react-router-dom';
 import Home from "./components/Home/Home"
 import Executives from "./views/Executives/Executives"
@@ -28,29 +28,56 @@ import ConsumerAlcohol from "./views/Projects/ConsumerAlcohol"
 import Phytase from './views/Projects/Phytase';
 import AboutUs from './views/AboutUs/AboutUs';
 import AdminSignIn from './views/AdminSignIn/AdminSignIn';
+import PrivateRoute from './PrivateRoute';
+import {AuthContext} from "./context/auth";
+import PRAdmin from "./components/PRAdmin/PRAdmin";
 
-import PRAdmin from "./components/PRAdmin/PRAdmin"
+import { Provider } from "react-redux";
+import store from "./store";
 
+import jwt_decode from "jwt-decode";
+import setAuthToken from "./utils/setAuthToken";
+import { setCurrentUser, logoutUser } from "./actions/authActions";
 
-
+// Check for token to keep user logged in
+if (localStorage.jwtToken) {
+  // Set auth token header auth
+  const token = localStorage.jwtToken;
+  setAuthToken(token);
+  // Decode token and get user info and exp
+  const decoded = jwt_decode(token);
+  // Set user and isAuthenticated
+  store.dispatch(setCurrentUser(decoded));
+// Check for expired token
+  const currentTime = Date.now() / 1000; // to get in milliseconds
+  if (decoded.exp < currentTime) {
+    // Logout user
+    store.dispatch(logoutUser());
+    // Redirect to login
+    window.location.href = "./login";
+  }
+}
 
 //import Timeline from "./components/Timeline/Timeline"
 const App = () => {
+
   return (
     <div>
       <Header />
-
       <Switch>
+
+        <Provider store = {store}>
         <Route exact path="/Home" component={Home} />
         <Route exact path="/Executives" component = {Executives} />
         <Route exact path="/">
           <Redirect to="/Home" />
         </Route>
         <Route exact path="/About" component={AboutUs} />
-        <Route exact path="/Admin" component={AdminSignIn} />
+        <Route exact path="/login" component={AdminSignIn}/>
+  
         
         <Route exact path="/Technology" component={Technology} />
-        <Route exact path="/Admin/PressReleases" component={PRAdmin} />
+       
         
 
         <Route exact path="/Technology/Carbon" component = {Carbon} />
@@ -76,11 +103,17 @@ const App = () => {
 
       {/*  <Route exact path="/Timeline" component={Timeline} />*/}
 
-
+        <Route exact path="/Admin/PressReleases" component={PRAdmin} />
+ 
+        </Provider>
         <Route component={NotFound}/>
+
       </Switch>
+
       <Footer />
     </div>
-  );
-}
+    );
+  }
+
+
 export default App;
