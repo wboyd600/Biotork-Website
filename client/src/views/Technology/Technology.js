@@ -21,14 +21,7 @@ function Technology() {
 
         <div class="container">
             <div class="row">
-                <h2 class="heading-title text-center">
-                    <Link className="FAQ-Link" to='Technology/FAQ'>Frequently Asked Questions</Link>    
-                </h2>
-                <p> </p>
-
-                <h2 class = "heading-title text-center">
-                    <Link className="Selection-Link" to= 'Technology/Selection'> Selection Scenarios </Link>
-                </h2>
+                
                 
                 <p> </p>
                 <h1 class="heading-title">
@@ -150,6 +143,15 @@ function Technology() {
                 </div>           
             </div>
         </div>  
+
+        <h2 class="heading-title text-center">
+                    <Link className="FAQ-Link" to='Technology/FAQ'>Frequently Asked Questions</Link>    
+                </h2>
+                <p> </p>
+
+                <h2 class = "heading-title text-center">
+                    <Link className="Selection-Link" to= 'Technology/Selection'> Selection Scenarios </Link>
+        </h2>
     </>
     );
 }
