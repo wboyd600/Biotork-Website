@@ -1,5 +1,4 @@
 /* Dependencies */
-var PR_controller = require("../controllers/PressReleases.js"),
     express = require("express"),
     router = express.Router();
 

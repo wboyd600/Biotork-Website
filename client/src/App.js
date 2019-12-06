@@ -47,7 +47,6 @@ const App = () => {
         <Route exact path="/About" component={AboutUs} />
         
         <Route exact path="/Technology" component={Technology} />
-        <Route exact path="/Admin/PressReleases" component={PRAdmin} />
         
 
         <Route exact path="/Technology/Carbon" component = {Carbon} />
