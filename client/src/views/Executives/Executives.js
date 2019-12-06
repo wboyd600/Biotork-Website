@@ -39,7 +39,7 @@ function Home() {
             <div class="flex-container">
             <div class="column">
                 <div class="card">
-                <img class="card-img-top" src="client\src\views\Executives\HansHeadshot.jpg" alt="Mark"></img>
+                <img class="card-img-top" src="https://i.ibb.co/7V5sftD/Mark-Bio-Tork.png" alt="Mark"></img>
                 <div class="container">
                     <h2>Mr. Mark DeAndrea</h2>
                     <p class="title">President & Chief Strategy Officer</p>
@@ -51,7 +51,7 @@ function Home() {
 
             <div class="column">
                 <div class="card">
-                <img class="card-img-top" src="./HansHeadshot.jpg" alt="Hans"></img>
+                <img class="card-img-top" src="https://i.ibb.co/VjW939R/Hans-Headshot.jpg" alt="Hans"></img>
                 <div class="container">
                     <h2>Mr. Hans van der Slujis</h2>
                     <p class="title">Chief Business Development Officer</p>
@@ -63,7 +63,7 @@ function Home() {
 
             <div class="column">
                 <div class="card">
-                <img class="card-img-top" src="https://image.freepik.com/free-photo/happy-african-american-professional-manager-smiling-looking-camera-headshot-portrait_1163-5134.jpg" alt="John"></img>
+                <img class="card-img-top" src="https://i.ibb.co/k0G5mW5/TomLyons.jpg" alt="John"></img>
                 <div class="container">
                     <h2>Dr. Tom Lyons</h2>
                     <p class="title">Chief Science Officer</p>
@@ -80,7 +80,7 @@ function Home() {
             <div class="flex-container">
                 <div class="column">
                     <div class="card">
-                    <img class="card-img-top" src="https://image.freepik.com/free-photo/happy-african-american-professional-manager-smiling-looking-camera-headshot-portrait_1163-5134.jpg" alt="John"></img>
+                    <img class="card-img-top" src="https://i.ibb.co/1fC48Rg/Marc-Penicaud.jpg" alt="John"></img>
                 <div class="container">
                     <h2>Mr. Marc Penicaud</h2>
                     <p class="title">CEO & co-founder</p>
@@ -92,7 +92,7 @@ function Home() {
 
                 <div class="column">
                     <div class="card">
-                    <img class="card-img-top" src="https://image.freepik.com/free-photo/happy-african-american-professional-manager-smiling-looking-camera-headshot-portrait_1163-5134.jpg" alt="John"></img>
+                    <img class="card-img-top" src="https://www.clipartwiki.com/clipimg/detail/197-1979569_no-profile.png" alt="John"></img>
                 <div class="container">
                     <h2>Mr. Eudes de Crecy</h2>
                     <p class="title">co-founder</p>
