@@ -1,6 +1,5 @@
 import React, {Fragment} from 'react';
 import './Home.css';
-import PR from '../PR/PR.js';
 
 /* Hero Image and covering text - Using google fonts for the custome text */
 
@@ -19,8 +18,6 @@ class Home extends React.Component {
                     <p className="text">Welcome to BioTork <br />
                         <div className="text2">Evolving beyond the imagination</div></p>
                 </div>
-                {/* Press Release Section */}
-                <PR/>
             </Fragment>
         );
     }
