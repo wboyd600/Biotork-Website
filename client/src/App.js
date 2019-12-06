@@ -28,7 +28,6 @@ import ConsumerAlcohol from "./views/Projects/ConsumerAlcohol"
 import Phytase from './views/Projects/Phytase';
 import AboutUs from './views/AboutUs/AboutUs';
 
-import PRAdmin from "./components/PRAdmin/PRAdmin"
 
 
 
