@@ -36,8 +36,6 @@ module.exports.init = () => {
     app.use(bodyParser.json());
     app.use(cookieParser());
     
-    // add a router
-    app.use('/api/PressReleases', pressReleasesRouter);
 
     const Schema = mongoose.Schema;
     // create a schema
