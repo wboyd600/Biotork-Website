@@ -35,7 +35,7 @@ class Contact extends React.Component {
             subject: this.state.subject,
             message: this.state.message,
         }
-        axios.post("/api/sendMail",dataToSubmit);
+        axios.post("http://localhost:5000/api/sendMail",dataToSubmit);
       }
 
     render() {
