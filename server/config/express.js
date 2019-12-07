@@ -7,6 +7,7 @@ const path = require('path'),
 
     cookieParser = require('cookie-parser'),
     exampleRouter = require('../routes/examples.server.routes'),
+    cors = require('cors'),
     {sendEmail} = require('../mail/mail');
 module.exports.init = () => {
     /* 
@@ -28,7 +29,7 @@ module.exports.init = () => {
 
     // initialize app
     const app = express();
-
+    app.use(cors());
     // enable request logging for development debugging
     app.use(morgan('dev'));
 
