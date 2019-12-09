@@ -88,3 +88,12 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+## Code Attribution
+As this class was a learning experience we made heavy usage of online tutorials to help us along in the development process. Some tutorials lent templates for the features we developed within the website. 
+
+This includes:
+[HTML CSS Mobile Responsive Footer](https://codepen.io/jakeduncan/pen/rJZJMM)
+[React/Bootstrap Cards](https://react-bootstrap.github.io/components/cards/)
+[Build a website with React, React-Bootstrap, and React Router](https://www.youtube.com/watch?v=jgVkR5EKI68)
+
