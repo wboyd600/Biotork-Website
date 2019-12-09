@@ -8,7 +8,7 @@ class PR extends React.Component {
     }
 
     componentDidMount() {
-        axios.get(`http://localhost:8080/api/PressReleases`)
+        axios.get(`https://intense-harbor-68881.herokuapp.com/api/PressReleases`)
             .then(res => {
                 const pressReleases = res.data;
                 this.setState({ pressReleases });

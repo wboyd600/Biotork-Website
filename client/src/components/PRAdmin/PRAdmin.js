@@ -35,7 +35,7 @@ class PRAdmin extends React.Component {
         }
         axios({
             method: 'POST',
-            url: `http://localhost:8080/api/PressReleases`,
+            url: `https://intense-harbor-68881.herokuapp.com/api/PressReleases`,
             data: body
         })
             .then(response => {
@@ -59,7 +59,7 @@ class PRAdmin extends React.Component {
         }
         axios({
             method: 'DELETE',
-            url: `http://localhost:8080/api/PressReleases`,
+            url: `https://intense-harbor-68881.herokuapp.com/api/PressReleases`,
             data: body
         })
             .then(response => {
@@ -93,7 +93,7 @@ class PRAdmin extends React.Component {
     }
     
     componentDidMount() {
-        axios.get(`http://localhost:8080/api/PressReleases`)
+        axios.get(`https://intense-harbor-68881.herokuapp.com/api/PressReleases`)
             .then(res => {
                 const pressReleases = res.data;
                 this.setState({ pressReleases });
