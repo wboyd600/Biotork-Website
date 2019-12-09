@@ -97,3 +97,9 @@ This includes:
 [React/Bootstrap Cards](https://react-bootstrap.github.io/components/cards/)
 [Build a website with React, React-Bootstrap, and React Router](https://www.youtube.com/watch?v=jgVkR5EKI68)
 
+## Continuing Development
+The currently deployed website contains all of the requested front end features and has appropriate and professional stylings.
+
+However, some back end features are not working on Heroku. These features have been demoed locally and are verefied functional. As a group we have trapped to understand where things fail on Heroku. As best we can tell the issue is related to dependendancies and configuration of third party services. The master branch in its current state has functional backends for the contact form and the PR admin panel. The deployed branch removes these features to allow the server to not crash on deployment. This would be the best thing to tackle in future development.
+
+Changing of graphics and text is trivial in the sites current state. All images are either externally linked or inside the assests folder when we expect them to be completely static. The text is all readable inline and styled already. 
