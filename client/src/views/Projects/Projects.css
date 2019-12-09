@@ -11,3 +11,53 @@
   
     
   }
+
+  .fuel-hero-section {
+    background: url('./iowa.jpg') 50% no-repeat;
+    background-size: cover;
+    height: 60vh;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .omega-hero-section {
+    background: url('./underwater.jpg') 50% no-repeat;
+    background-size: cover;
+    height: 60vh;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .phytase-hero-section {
+    background: url('./Phytase-Photo.jpg') 50% no-repeat;
+    background-size: cover;
+    height: 60vh;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .consumer-hero-section {
+    background: url('./distillery-barrels.jpg') 50% no-repeat;
+    background-size: cover;
+    height: 60vh;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .project-txt{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
