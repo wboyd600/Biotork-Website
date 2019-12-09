@@ -13,13 +13,24 @@ Since this project will hold both the client application and the server applicat
 
 This app can be deployed directly to heroku since there is a script defined in package.json which will automatically handle building and deploying the app. For more information on deploying to heroku reference the extra resources at the bottom of this file. 
 
-## File structure
+## File structure - UPDATED FOR GROUP 5B
 #### `client` - Holds the client application
 - #### `public` - This holds all of our static files
 - #### `src`
     - #### `assets` - This folder holds assets such as images, docs, and fonts
+        - #### Held inside is the background photos for each page appropriately labeled. As well as the logos used on the website. These can easily be changed to update the graphics.
     - #### `components` - This folder holds all of the different components that will make up our views
+        - #### 'Footer' - Contains the code for the footer used across the website
+        - #### 'Header' - Contains the code for the header used across the website
+        - #### 'PR' - Contains the code for posting press releases in a standardized format
+        - #### 'PR Admin' - Contains the code for the page that is used across to post the press releases 
     - #### `views` - These represent a unique page on the website i.e. Home or About. These are still normal react components.
+        - #### 'AboutUs' - The about us page serves to display both a breif history of biotork and the mission statements for the company
+        - #### 'Contact' - The contact page allows for sending an email to a company email that contains client contact information - THIS DOES NOT CURRENTLY WORK IN DEPLOYMENT - Local testing successful
+        - #### 'Executives' - The executives page contains information about the executives and their headshots. The images are linked to externally and are easily changed. 
+        - #### 'Home' - The home page displays a welcoming image and recent press releases
+        - #### 'Projects' - The projects page displays all projects currently being developed by BioTork
+        - #### 'Technology' - The technology page displays the proprietary technologies of Biotork
     - #### `App.js` - This is what renders all of our browser routes and different views
     - #### `index.js` - This is what renders the react app by rendering App.js, should not change
 - #### `package.json` - Defines npm behaviors and packages for the client
