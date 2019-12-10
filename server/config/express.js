@@ -3,8 +3,8 @@ const path = require('path'),
     mongoose = require('mongoose'),
     morgan = require('morgan'),
     bodyParser = require('body-parser'),
-    pressReleasesRouter = require('../routes/PressReleases');
-
+    pressReleasesRouter = require('../routes/PressReleases'),
+    cors = require('cors'),
     cookieParser = require('cookie-parser'),
     exampleRouter = require('../routes/examples.server.routes'),
     {sendEmail} = require('../mail/mail');
@@ -28,7 +28,7 @@ module.exports.init = () => {
 
     // initialize app
     const app = express();
-
+    app.use(cors);
     // enable request logging for development debugging
     app.use(morgan('dev'));
 
