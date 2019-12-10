@@ -113,16 +113,34 @@ However, some back end features are not working on Heroku. These features have b
 
 Changing of graphics and text is trivial in the sites current state. All images are either externally linked or inside the assests folder when we expect them to be completely static. The text is all readable inline and styled already. 
 
+## How to run
+Locally: Clone the project, and navigate to the directory in command prompt / terminal. Run the commands in the getting started section (npm install && npm run-script install-all) and then use 'npm run-script dev' to run front and backend concurrently.
+
+Heroku: Follow the procedures above ignoring the last command ('npm run-script dev'). Initialize a git repository if not already initialize. Add and commit project if not added and committed. Then use the following commands:
+$ heroku create
+$ git push heroku master
+
+Script 'heroku-postbuild' takes care of building the project for deployment. 
 ## Project Features -- Images corresponding to pages described in 'File Structure'
 ![Home Page](../read_me_images/read_me_images/home.png)
+Includes header to route to other pages
 ![Press Releases / Footer](../read_me_images/read_me_images/pr_footer.png)
+Current Press Releases, updated by Press Release Admin
 ![About Us](../read_me_images/read_me_images/about.png)
+About Us page
 ![Technology_1](../read_me_images/read_me_images/technology_1.png)
+Top of the Technology Page
 ![Technology_2](../read_me_images/read_me_images/technology_2.png)
+Bottom of Technology Page
 ![Technology Example](../read_me_images/read_me_images/tech_ex.png)
+Example page of where cards on Technology link to
 ![Projects](../read_me_images/read_me_images/projects.png)
+Projects page
 ![Projects Example](../read_me_images/read_me_images/project_ex.png)
+Example page of where cards on Projects page link to
 ![Executives](../read_me_images/read_me_images/executives.png)
+Page describing executives
 ![Contact Form](../read_me_images/read_me_images/contact.png)
+Page to send email to the company from the website
 ![Press Release Backend](../read_me_images/read_me_images/pr_backend.png)
-
+Page to update press releases shown on home page
