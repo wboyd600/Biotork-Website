@@ -1,3 +1,7 @@
+Link to deployed page: http://biotork-website.herokuapp.com/
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 This project contains an example project board meant to showcase how one can be used. The issues posted to it are not real issues.
 
@@ -96,6 +100,10 @@ This includes:
 [HTML CSS Mobile Responsive Footer](https://codepen.io/jakeduncan/pen/rJZJMM)
 [React/Bootstrap Cards](https://react-bootstrap.github.io/components/cards/)
 [Build a website with React, React-Bootstrap, and React Router](https://www.youtube.com/watch?v=jgVkR5EKI68)
+[Send Email with NODE JS REACT JS NODEMAILER](https://www.youtube.com/watch?v=04zqBhQx7xU&t=285s)
+
+Dependencies:
+axios, body-parser, bootstrap, classnames, concurrently, cookie-parser, express, http-proxy-middleware,jquery, mocha, mongoose, morgan, nodemailer, nodemailer-mailgun-transport, nodemon, popper.js, prop-types, react-bootstrap, react-visibility-sensor, should, superagent, supertest, cors
 
 ## Continuing Development
 The currently deployed website contains all of the requested front end features and has appropriate and professional stylings.
