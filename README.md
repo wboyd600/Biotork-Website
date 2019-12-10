@@ -1,4 +1,5 @@
-Link to deployed page: http://biotork-website.herokuapp.com/
+#### _**Link to deployed page**_: 
+http://biotork-website.herokuapp.com/
 
 
 
@@ -111,3 +112,17 @@ The currently deployed website contains all of the requested front end features 
 However, some back end features are not working on Heroku. These features have been demoed locally and are verefied functional. As a group we have trapped to understand where things fail on Heroku. As best we can tell the issue is related to dependendancies and configuration of third party services. The master branch in its current state has functional backends for the contact form and the PR admin panel. The deployed branch removes these features to allow the server to not crash on deployment. This would be the best thing to tackle in future development.
 
 Changing of graphics and text is trivial in the sites current state. All images are either externally linked or inside the assests folder when we expect them to be completely static. The text is all readable inline and styled already. 
+
+## Project Features -- Images corresponding to pages described in 'File Structure'
+![Home Page](../read_me_images/read_me_images/home.png)
+![Press Releases / Footer](../read_me_images/read_me_images/pr_footer.png)
+![About Us](../read_me_images/read_me_images/about.png)
+![Technology_1](../read_me_images/read_me_images/technology_1.png)
+![Technology_2](../read_me_images/read_me_images/technology_2.png)
+![Technology Example](../read_me_images/read_me_images/tech_ex.png)
+![Projects](../read_me_images/read_me_images/projects.png)
+![Projects Example](../read_me_images/read_me_images/project_ex.png)
+![Executives](../read_me_images/read_me_images/executives.png)
+![Contact Form](../read_me_images/read_me_images/contact.png)
+![Press Release Backend](../read_me_images/read_me_images/pr_backend.png)
+
